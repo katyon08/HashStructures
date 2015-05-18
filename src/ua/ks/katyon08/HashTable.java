@@ -13,7 +13,7 @@ public class HashTable<K,V>{
         this.loadFactor = loadFactor;
         this.capacity = initialCapacity;
         tableIndex = new int[capacity];
-        table = new ArrayList<V>(capacity);
+        table = new ArrayList<V>();
         initTableIndex();
 
     }
