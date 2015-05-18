@@ -13,7 +13,15 @@ public class HashTable<K,V>{
         this.loadFactor = loadFactor;
         this.capacity = initialCapacity;
         tableIndex = new int[capacity];
+        table = new ArrayList<V>(capacity);
+        initTableIndex();
 
+    }
+
+    private void initTableIndex() {
+        for (int i = 0; i < capacity; i++) {
+            tableIndex[i] = -1;
+        }
     }
 
     public HashTable(float loadFactor) {
@@ -28,6 +36,9 @@ public class HashTable<K,V>{
         this((float) 0.75, 128);
     }
 
+    private int localHash(int hash) {
+        return hash % capacity;
+    }
 
 
     public void put(K key, V value) {
