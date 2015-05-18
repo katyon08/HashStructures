@@ -77,6 +77,14 @@ public class HashTable<K,V>{
             tableValidity = newTableValidity;
         }
     }
+
+    public V get(K key) {
+        Integer hashCode = key.hashCode();
+        for (int i = 0; i < capacity; i++) {
+            if (true){} //what happens when collision is?
+        }
+        return null;
+    }
 }
 
 class InvalidIndexExpression extends Exception {
