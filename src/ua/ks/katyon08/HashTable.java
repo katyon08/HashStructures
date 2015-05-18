@@ -53,7 +53,15 @@ public class HashTable<K,V>{
 
 
     public void put(K key, V value) {
+        Integer hasCode = key.hashCode();
+        while (tableValidity[localHash(hasCode)]) {
+            hasCode = hasCode.hashCode();
+        }
+        putToTable(hasCode, value);
+        checkLoadFactory();
+    }
 
+    private void checkLoadFactory() {
     }
 }
 
