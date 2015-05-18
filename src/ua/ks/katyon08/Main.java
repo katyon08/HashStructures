@@ -10,7 +10,8 @@ public class Main {
         System.out.println(x);
         for (int i = 0; i < 10; i++) {
             x = Integer.toString((x.hashCode() * 10) % 1024);
-            System.out.println(x);
+            System.out.println(x + "   " + right[Integer.parseInt(x)]);
+            right[Integer.parseInt(x)] = true;
         }
     }
 }
