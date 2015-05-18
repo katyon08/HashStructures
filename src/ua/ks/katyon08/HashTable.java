@@ -48,16 +48,17 @@ public class HashTable<K,V>{
     }
 
     private int localHash(int hash) {
-        return hash % capacity;
+        int localHash = hash % capacity;
+        return localHash;
     }
 
 
     public void put(K key, V value) {
-        Integer hasCode = key.hashCode();
-        while (tableValidity[localHash(hasCode)]) {
-            hasCode = hasCode.hashCode() + 23;
+        Integer hashCode = key.hashCode();
+        while (tableValidity[localHash(hashCode)]) {
+            hashCode = hashCode.hashCode() + 23;
         }
-        putToTable(localHash(hasCode), value);
+        putToTable(localHash(hashCode), value);
         checkLoadFactory();
     }
 
@@ -65,13 +66,15 @@ public class HashTable<K,V>{
         float duringLoad = (float) busyness / capacity;
         if (duringLoad > loadFactor) {
             int oldCapacity = capacity;
-            capacity = 3/2*capacity + 1;
+            capacity = 3*oldCapacity/2 + 1;
             V[] newTable = genericArray(capacity);
             boolean[] newTableValidity = new boolean[capacity];
             for (int i = 0; i < oldCapacity; i++) {
                 newTable[i] = table[i];
                 newTableValidity[i] = tableValidity[i];
             }
+            table = newTable;
+            tableValidity = newTableValidity;
         }
     }
 }
