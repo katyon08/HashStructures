@@ -63,7 +63,7 @@ public class HashTable<K,V>{
 
     private void checkLoadFactory() {
         float duringLoad = (float) busyness / capacity;
-        if (busyness > loadFactor) {
+        if (duringLoad > loadFactor) {
             int oldCapacity = capacity;
             capacity = 3/2*capacity + 1;
             V[] newTable = genericArray(capacity);
