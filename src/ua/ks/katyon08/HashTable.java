@@ -1,21 +1,21 @@
 package ua.ks.katyon08;
 
-import java.util.ArrayList;
-
 public class HashTable<K,V>{
     private float loadFactor;
-    private int capacity;
+    private int capacity, busyness = 0;
     private V[] table;
     private boolean[] tableValidity;
 
     @SuppressWarnings("unchecked")
-    private void GenericArray(int sz) {
-        table = (V[])new Object[sz];
+    private V[] genericArray(int sz) {
+        V[] newTable = (V[])new Object[sz];
+        return newTable;
     }
 
     private void putToTable(int index, V value) {
         table[index] = value;
         tableValidity[index] = true;
+        busyness++;
     }
 
     private V getFromTable (int index) throws InvalidIndexExpression{
@@ -30,7 +30,7 @@ public class HashTable<K,V>{
     public HashTable(float loadFactor, int initialCapacity) {
         this.loadFactor = loadFactor;
         this.capacity = initialCapacity;
-        GenericArray(capacity);
+        table = genericArray(capacity);
         tableValidity = new boolean[capacity];
 
     }
@@ -55,13 +55,24 @@ public class HashTable<K,V>{
     public void put(K key, V value) {
         Integer hasCode = key.hashCode();
         while (tableValidity[localHash(hasCode)]) {
-            hasCode = hasCode.hashCode();
+            hasCode = hasCode.hashCode() + 23;
         }
-        putToTable(hasCode, value);
+        putToTable(localHash(hasCode), value);
         checkLoadFactory();
     }
 
     private void checkLoadFactory() {
+        float duringLoad = (float) busyness / capacity;
+        if (busyness > loadFactor) {
+            int oldCapacity = capacity;
+            capacity = 3/2*capacity + 1;
+            V[] newTable = genericArray(capacity);
+            boolean[] newTableValidity = new boolean[capacity];
+            for (int i = 0; i < oldCapacity; i++) {
+                newTable[i] = table[i];
+                newTableValidity[i] = tableValidity[i];
+            }
+        }
     }
 }
 
