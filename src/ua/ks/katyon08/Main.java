@@ -1,6 +1,7 @@
 package ua.ks.katyon08;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 
 public class Main {
 
