@@ -1,9 +1,12 @@
 package ua.ks.katyon08;
 
-public class HashTable<K,V>{
+import java.util.Dictionary;
+
+public class HashTable<K,V> {
     private float loadFactor;
     private int capacity, busyness = 0;
     private V[] table;
+    private K[] keyTable;
     private boolean[] tableValidity;
 
     @SuppressWarnings("unchecked")
@@ -11,11 +14,15 @@ public class HashTable<K,V>{
         V[] newTable = (V[])new Object[sz];
         return newTable;
     }
+    private K[] genericKeyArray(int sz) {
+        K[] newTable = (K[])new Object[sz];
+        return newTable;
+    }
 
-    private void putToTable(int index, V value) {
+    private void putToTable(int index, V value, K key) {
         table[index] = value;
+        if (!tableValidity[index]) busyness++;
         tableValidity[index] = true;
-        busyness++;
     }
 
     private V getFromTable (int index) throws InvalidIndexExpression{
@@ -40,26 +47,35 @@ public class HashTable<K,V>{
     }
 
     public HashTable(int initialCapacity) {
-        this((float)0.75, initialCapacity);
+        this((float) 0.75, initialCapacity);
     }
 
     public HashTable() {
         this((float) 0.75, 128);
     }
 
-    private int localHash(int hash) {
-        int localHash = hash % capacity;
+    private Integer localHash(Integer hash) {
+        Integer localHash = hash % capacity;
         return localHash;
     }
 
+    private Integer modifyHashCode(Integer hashCode) {
+        Integer modifiedHashCode = hashCode.hashCode() + 23;
+        return localHash(modifiedHashCode);
+    }
 
-    public void put(K key, V value) {
+    public V put(K key, V value) {
         Integer hashCode = key.hashCode();
-        while (tableValidity[localHash(hashCode)]) {
-            hashCode = hashCode.hashCode() + 23;
+        V previousValue = null;
+        if (tableValidity[hashCode]) {
+            previousValue = get(key);
         }
-        putToTable(localHash(hashCode), value);
+        while (tableValidity[localHash(hashCode)]) {
+            hashCode = modifyHashCode(hashCode);
+        }
+        putToTable(localHash(hashCode), value, key);
         checkLoadFactory();
+        return previousValue;
     }
 
     private void checkLoadFactory() {
@@ -78,10 +94,13 @@ public class HashTable<K,V>{
         }
     }
 
-    public V get(K key) {
+    public V get(K key) { //check if I can remove tableValidity[hashCode] from "if"
         Integer hashCode = key.hashCode();
         for (int i = 0; i < capacity; i++) {
-            if (true){} //what happens when collision is?
+            if (keyTable[hashCode].equals(key) && tableValidity[hashCode]){
+                return table[hashCode];
+            }
+            hashCode = modifyHashCode(hashCode);
         }
         return null;
     }
@@ -95,7 +114,54 @@ public class HashTable<K,V>{
     public Object copy() {
         HashTable<K, V> copiedTable = new HashTable<K,V>(loadFactor, capacity);
         for (int i = 0; i < capacity; i++) {
-            copiedTable.
+            copiedTable.put(keyTable[i], table[i]);
+        }
+        return copiedTable;
+    }
+
+    public int size() {
+        return capacity;
+    }
+
+    public boolean isEmpty() {
+        boolean empties = false;
+        for (int i = 0; i < capacity; i++) {
+            empties = empties || tableValidity[i];
+        }
+        return !empties;
+    }
+
+    public boolean conteins(V value) {
+        return conteinsValue(value);
+    }
+
+    public boolean conteinsValue(V value) {
+        for (int i = 0; i < capacity; i++) {
+            if (tableValidity[i] && value.equals(table[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean containsKey(K key) {
+        for (int i = 0; i < capacity; i++) {
+            if (tableValidity[i] && key.equals(keyTable[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public V remove(K key) {
+
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean notEquals = false;
+        for (int i = 0; i < capacity; i++) {
+            notEquals = notEquals ||
         }
     }
 }
