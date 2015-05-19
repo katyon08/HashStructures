@@ -1,6 +1,9 @@
 package ua.ks.katyon08;
 
 import java.util.Dictionary;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 public class HashTable<K,V> {
     private float loadFactor;
@@ -78,9 +81,17 @@ public class HashTable<K,V> {
         return previousValue;
     }
 
+    public void putAll(Map<K,V> t) {
+        Set<K> setOfKeys = t.keySet();
+        for (K key : setOfKeys) {
+            put(key, get(key));
+        }
+
+    }
+
     private void checkLoadFactory() {
         float duringLoad = (float) busyness / capacity;
-        if (duringLoad > loadFactor) {
+        if (duringLoad >= loadFactor) {
             int oldCapacity = capacity;
             capacity = 3*oldCapacity/2 + 1;
             V[] newTable = genericArray(capacity);
@@ -120,7 +131,7 @@ public class HashTable<K,V> {
     }
 
     public int size() {
-        return capacity;
+        return busyness;
     }
 
     public boolean isEmpty() {
@@ -154,15 +165,38 @@ public class HashTable<K,V> {
     }
 
     public V remove(K key) {
-
+        for (int i = 0; i < capacity; i++) {
+            if (tableValidity[i] && key.equals(keyTable[i])) {
+                V previousValue = table[i];
+                busyness--;
+                tableValidity[i] = false;
+                return previousValue;
+            }
+        }
+        return null;
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object obj){
+        if (!(obj instanceof HashTable)) return false;
+        if (!(busyness == ((HashTable<K,V>) obj).size())) return false;
         boolean notEquals = false;
         for (int i = 0; i < capacity; i++) {
-            notEquals = notEquals ||
+            if (tableValidity[i]) {
+                if (!(table[i].equals(((HashTable<K, V>) obj).get(keyTable[i])))) return false;
+            }
         }
+        return true;
+    }
+
+    public String toString() {
+        String toString = "";
+        for (int i = 0; i <capacity; i++) {
+            if (tableValidity[i]) {
+                toString += "Key = " + keyTable[i].toString() + " || Value = " + table[i].toString() + "\n";
+            }
+        }
+        return toString;
     }
 }
 
