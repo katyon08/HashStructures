@@ -85,6 +85,19 @@ public class HashTable<K,V>{
         }
         return null;
     }
+
+    public void clear() {
+        for (boolean value : tableValidity) {
+            value = false;
+        }
+    }
+
+    public Object copy() {
+        HashTable<K, V> copiedTable = new HashTable<K,V>(loadFactor, capacity);
+        for (int i = 0; i < capacity; i++) {
+            copiedTable.
+        }
+    }
 }
 
 class InvalidIndexExpression extends Exception {
