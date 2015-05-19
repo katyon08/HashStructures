@@ -427,6 +427,6 @@ class InvalidIndexExpression extends Exception {
 
     public InvalidIndexExpression(int index, boolean[] tableValidity) {
         super();
-        System.out.println("Invalid index. Fatal error");
+        System.out.println("Invalid index. Fatal error. Index = " + index);
     }
 }
