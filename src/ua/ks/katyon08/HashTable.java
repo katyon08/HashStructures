@@ -56,8 +56,8 @@ public class HashTable<K, V> {
      * Constructs a new, empty hashtable with the specified initial
      * capacity and the specified load factor.
      *
-     * @param      initialCapacity - the initial capacity of the hashtable.
-     * @param      loadFactor      - the load factor of the hashtable.
+     * @param      initialCapacity the initial capacity of the hashtable.
+     * @param      loadFactor      the load factor of the hashtable.
      * @exception  IllegalArgumentException  if the initial capacity is less
      *             than zero, or if the load factor is nonpositive.
      */
@@ -80,7 +80,7 @@ public class HashTable<K, V> {
      * Constructs a new, empty hashtable with the specified load factor
      * and default initial capacity (11).
      *
-     * @param     loadFactor - the initial loadFactor of the hashtable.
+     * @param     loadFactor the initial loadFactor of the hashtable.
      * @exception IllegalArgumentException if the initial loadFactor is less
      *              than zero.
      */
@@ -113,7 +113,7 @@ public class HashTable<K, V> {
      * Map.  The hashtable is created with an initial capacity sufficient to
      * hold the mappings in the given Map and a default load factor (0.75).
      *
-     * @param income - the map whose mappings are to be placed in this map.
+     * @param income the map whose mappings are to be placed in this map.
      * @throws NullPointerException if the specified map is null.
      * @since   1.1
      */
@@ -125,7 +125,7 @@ public class HashTable<K, V> {
 
     /**
      * Generates the array of value type.
-     * @param sz - size of generating array.
+     * @param sz size of generating array.
      * @return Generated array of value type.
      */
     @SuppressWarnings("unchecked")
@@ -136,7 +136,7 @@ public class HashTable<K, V> {
 
     /**
      * Generates the array of key type.
-     * @param sz - size of generating array.
+     * @param sz size of generating array.
      * @return Generated array of key type.
      */
     @SuppressWarnings("unchecked")
@@ -168,7 +168,7 @@ public class HashTable<K, V> {
 
     /**
      * Implements rehashing.
-     * @param hashCode - the hash code coming to rehash.
+     * @param hashCode the hash code coming to rehash.
      * @return the rehashed hash come
      */
     private Integer modifyHashCode(Integer hashCode) {
@@ -184,8 +184,8 @@ public class HashTable<K, V> {
      * The value can be retrieved by calling the get method
      * with a key that is equal to the original key.
      *
-     * @param      key - the hashtable key
-     * @param      value - the value
+     * @param      key the hashtable key
+     * @param      value the value
      * @return     the previous value of the specified key in this hashtable,
      *             or null if it did not have one
      * @exception  NullPointerException  if the key or value is null
@@ -211,7 +211,7 @@ public class HashTable<K, V> {
 
     /**
      * Puts all of pairs key, value into hash table
-     * @param t - income Map consists of pairs key, value.
+     * @param t income Map consists of pairs key, value.
      * @exception  NullPointerException  if one the keys or values is null
      */
     public void putAll(Map<K, V> t) {
@@ -247,7 +247,7 @@ public class HashTable<K, V> {
      * Returns the value to which the specified key is mapped,
      * or null if this map contains no mapping for the key.
      *
-     * @param key - the key whose associated value is to be returned
+     * @param key the key whose associated value is to be returned
      * @return the value to which the specified key is mapped, or
      *         null if this map contains no mapping for the key
      * @throws NullPointerException if the specified key is null
@@ -316,7 +316,7 @@ public class HashTable<K, V> {
      * {@link #containsValue containsValue}, (which is part of the
      * {@link Map} interface in the collections framework).
      *
-     * @param      value - a value to search for
+     * @param      value a value to search for
      * @return     true if and only if some key maps to the
      *             value argument in this hashtable as
      *             determined by the equals method;
@@ -330,7 +330,7 @@ public class HashTable<K, V> {
     /**
      * Returns true if this hashtable maps one or more keys to this value.
      *
-     * @param value - value whose presence in this hashtable is to be tested
+     * @param value value whose presence in this hashtable is to be tested
      * @return true if this map maps one or more keys to the
      *         specified value
      * @throws NullPointerException  if the value is null
@@ -348,7 +348,7 @@ public class HashTable<K, V> {
     /**
      * Tests if the specified object is a key in this hashtable.
      *
-     * @param   key - possible key
+     * @param   key possible key
      * @return  true if and only if the specified object
      *          is a key in this hashtable, as determined by the
      *          equals method; false otherwise.
@@ -368,7 +368,7 @@ public class HashTable<K, V> {
      * Removes the key (and its corresponding value) from this
      * hashtable. This method does nothing if the key is not in the hashtable.
      *
-     * @param   key - the key that needs to be removed
+     * @param   key the key that needs to be removed
      * @return  the value to which the key had been mapped in this hashtable,
      *          or null if the key did not have a mapping
      * @throws  NullPointerException  if the key is null
@@ -390,7 +390,7 @@ public class HashTable<K, V> {
      * Compares the specified Object with this Map for equality,
      * as per the definition in the Map interface.
      *
-     * @param  obj - object to be compared for equality with this hashtable
+     * @param  obj object to be compared for equality with this hashtable
      * @return true if the specified Object is equal to this Map
      */
     @Override
