@@ -9,7 +9,6 @@ public class Main {
 
     public static void main(String[] args) {
         HashTable<Integer, Integer> table = new HashTable<Integer, Integer>();
-        HashSet
         Random rnd = new Random();
         int x;
         for (int i = 0; i < 20; i++) {

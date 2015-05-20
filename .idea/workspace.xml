@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f811f25-a0a4-410a-b65d-521bd9175f59" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HashStructures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,9 @@
         <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#256#274#0" expanded="true" />
               </folding>
             </state>
@@ -90,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
         <entry file="jar://C:/jdk/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.19604613">
               <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
               <folding>
                 <element signature="docComment;class#HashMap#0" expanded="false" />
@@ -157,10 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractMap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractMap.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/jdk/src.zip!/java/util/AbstractMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2800659">
+            <state vertical-scroll-proportion="0.0">
               <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
               <folding>
                 <element signature="docComment;class#AbstractMap#0" expanded="false" />
@@ -531,7 +533,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,11 +580,98 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/jdk/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
+          <folding>
+            <element signature="docComment;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#containsValue#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#containsKey#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#put#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#putAll#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;field#keySet#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#keySet#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#values#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#clone#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#eq#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#getKey#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#getKey#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#setValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#256#274#0" expanded="true" />
           </folding>
         </state>
@@ -640,33 +729,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/jdk/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.19604613">
           <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
           <folding>
             <element signature="docComment;class#HashMap#0" expanded="false" />
@@ -725,68 +790,6 @@
             <element signature="docComment;method#removeTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
             <element signature="docComment;method#split#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
             <element signature="docComment;method#checkInvariants#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2800659">
-          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
-          <folding>
-            <element signature="docComment;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;field#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#eq#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
           </folding>
         </state>
       </provider>
