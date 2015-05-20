@@ -426,6 +426,25 @@ public class HashTable<K, V> {
         }
         return toString;
     }
+
+    public String toStringDevelopMode() {
+        String toString = "";
+        for (int i = 0; i <capacity; i++) {
+            if (tableValidity[i]) {
+                toString += "Key = " + keyTable[i].toString() +
+                        " || Value = " + table[i].toString() + " || Index = " + i +"\n";
+            }
+            else {
+                toString += " *** non-valible *** " + "Key = ";
+                if (keyTable[i] != null) toString += keyTable[i].toString() + " || Value = ";
+                else toString += " /null || Value = ";
+                if (table[i] != null) toString += table[i].toString() + " || Index = ";
+                else toString += " /null || Index = ";
+                toString += i +"\n";
+            }
+        }
+        return toString;
+    }
 }
 
 class InvalidIndexExpression extends Exception {
