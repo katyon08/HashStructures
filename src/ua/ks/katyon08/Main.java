@@ -1,9 +1,6 @@
 package ua.ks.katyon08;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
 
@@ -18,6 +15,7 @@ public class Main {
             table.remove(rnd.nextInt(30));
         }
         System.out.println(table.toStringDevelopMode() + "/n______________");
+        java.util.TreeMap treemap;
 
 
     }

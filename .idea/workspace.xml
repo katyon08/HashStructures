@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f811f25-a0a4-410a-b65d-521bd9175f59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" />
+    <list default="true" id="b86926cf-8a4a-47e1-bc91-00875fd5711a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HashStructures.iws" />
@@ -25,361 +29,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
+      <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Hashtable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+              <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
               <folding>
+                <element signature="e#0#48858#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#256#274#0" expanded="true" />
+                <element signature="e#44925#44926#0" expanded="true" />
+                <element signature="e#44991#44992#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/jdk/src.zip!/java/util/TreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1307" column="5" selection-start-line="1307" selection-start-column="5" selection-end-line="1307" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;field#comparator#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;field#size#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;field#modCount#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#TreeMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#5767#5768#0" expanded="true" />
-                <element signature="e#5800#5801#0" expanded="true" />
-                <element signature="docComment;method#TreeMap#1;class#TreeMap#0" expanded="false" />
-                <element signature="e#6596#6597#0" expanded="true" />
-                <element signature="e#6640#6641#0" expanded="true" />
-                <element signature="docComment;method#TreeMap#2;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#TreeMap#3;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#size#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#8418#8419#0" expanded="true" />
-                <element signature="e#8445#8446#0" expanded="true" />
-                <element signature="docComment;method#containsKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#9063#9064#0" expanded="true" />
-                <element signature="e#9107#9108#0" expanded="true" />
-                <element signature="docComment;method#containsValue#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#get#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#11206#11207#0" expanded="true" />
-                <element signature="e#11239#11240#0" expanded="true" />
-                <element signature="docComment;method#firstKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#11334#11335#0" expanded="true" />
-                <element signature="e#11377#11378#0" expanded="true" />
-                <element signature="docComment;method#lastKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#11471#11472#0" expanded="true" />
-                <element signature="e#11513#11514#0" expanded="true" />
-                <element signature="docComment;method#putAll#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#getEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#13644#13674#1" expanded="true" />
-                <element signature="docComment;method#getEntryUsingComparator#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#14343#14373#1" expanded="true" />
-                <element signature="docComment;method#getCeilingEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#getFloorEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#getHigherEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#getLowerEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#put#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#20815#20845#1" expanded="true" />
-                <element signature="docComment;method#remove#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#clone#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#firstEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#23674#23675#0" expanded="true" />
-                <element signature="e#23725#23726#0" expanded="true" />
-                <element signature="docComment;method#lastEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#23800#23801#0" expanded="true" />
-                <element signature="e#23850#23851#0" expanded="true" />
-                <element signature="docComment;method#pollFirstEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#pollLastEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#lowerEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#24648#24649#0" expanded="true" />
-                <element signature="e#24702#24703#0" expanded="true" />
-                <element signature="docComment;method#lowerKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#24991#24992#0" expanded="true" />
-                <element signature="e#25043#25044#0" expanded="true" />
-                <element signature="docComment;method#floorEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#25347#25348#0" expanded="true" />
-                <element signature="e#25401#25402#0" expanded="true" />
-                <element signature="docComment;method#floorKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#25690#25691#0" expanded="true" />
-                <element signature="e#25742#25743#0" expanded="true" />
-                <element signature="docComment;method#ceilingEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#26048#26049#0" expanded="true" />
-                <element signature="e#26104#26105#0" expanded="true" />
-                <element signature="docComment;method#ceilingKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#26395#26396#0" expanded="true" />
-                <element signature="e#26449#26450#0" expanded="true" />
-                <element signature="docComment;method#higherEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#26754#26755#0" expanded="true" />
-                <element signature="e#26809#26810#0" expanded="true" />
-                <element signature="docComment;method#higherKey#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#27099#27100#0" expanded="true" />
-                <element signature="e#27152#27153#0" expanded="true" />
-                <element signature="docComment;field#entrySet#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#keySet#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#28935#28936#0" expanded="true" />
-                <element signature="e#28975#28976#0" expanded="true" />
-                <element signature="docComment;method#navigableKeySet#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#descendingKeySet#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#29264#29265#0" expanded="true" />
-                <element signature="e#29320#29321#0" expanded="true" />
-                <element signature="docComment;method#values#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#entrySet#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#descendingMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#subMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#headMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#tailMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#subMap#1;class#TreeMap#0" expanded="false" />
-                <element signature="e#34417#34418#0" expanded="true" />
-                <element signature="e#34475#34476#0" expanded="true" />
-                <element signature="docComment;method#headMap#1;class#TreeMap#0" expanded="false" />
-                <element signature="e#34816#34817#0" expanded="true" />
-                <element signature="e#34860#34861#0" expanded="true" />
-                <element signature="docComment;method#tailMap#1;class#TreeMap#0" expanded="false" />
-                <element signature="e#35205#35206#0" expanded="true" />
-                <element signature="e#35250#35251#0" expanded="true" />
-                <element signature="e#36757#36758#0" expanded="true" />
-                <element signature="e#36822#36823#0" expanded="true" />
-                <element signature="e#36851#36852#0" expanded="true" />
-                <element signature="e#36901#36902#0" expanded="true" />
-                <element signature="e#36946#36947#0" expanded="true" />
-                <element signature="e#37006#37007#0" expanded="true" />
-                <element signature="e#37347#37348#0" expanded="true" />
-                <element signature="e#37391#37392#0" expanded="true" />
-                <element signature="e#37438#37439#0" expanded="true" />
-                <element signature="e#37530#37531#0" expanded="true" />
-                <element signature="e#37647#37648#0" expanded="true" />
-                <element signature="e#37712#37713#0" expanded="true" />
-                <element signature="e#38529#38530#0" expanded="true" />
-                <element signature="e#38579#38580#0" expanded="true" />
-                <element signature="e#38610#38611#0" expanded="true" />
-                <element signature="e#38654#38655#0" expanded="true" />
-                <element signature="e#39154#39155#0" expanded="true" />
-                <element signature="e#39209#39210#0" expanded="true" />
-                <element signature="e#39252#39253#0" expanded="true" />
-                <element signature="e#39316#39317#0" expanded="true" />
-                <element signature="e#41714#41715#0" expanded="true" />
-                <element signature="e#41788#41789#0" expanded="true" />
-                <element signature="e#41839#41840#0" expanded="true" />
-                <element signature="e#41895#41896#0" expanded="true" />
-                <element signature="e#41948#41949#0" expanded="true" />
-                <element signature="e#42005#42006#0" expanded="true" />
-                <element signature="e#42054#42055#0" expanded="true" />
-                <element signature="e#42116#42117#0" expanded="true" />
-                <element signature="e#42163#42164#0" expanded="true" />
-                <element signature="e#42214#42215#0" expanded="true" />
-                <element signature="docComment;class#PrivateEntryIterator#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#42635#42636#0" expanded="true" />
-                <element signature="e#42678#42679#0" expanded="true" />
-                <element signature="e#44039#44040#0" expanded="true" />
-                <element signature="e#44075#44076#0" expanded="true" />
-                <element signature="e#44114#44115#0" expanded="true" />
-                <element signature="e#44156#44157#0" expanded="true" />
-                <element signature="e#44269#44270#0" expanded="true" />
-                <element signature="e#44305#44306#0" expanded="true" />
-                <element signature="e#44331#44332#0" expanded="true" />
-                <element signature="e#44379#44380#0" expanded="true" />
-                <element signature="e#44488#44489#0" expanded="true" />
-                <element signature="e#44524#44525#0" expanded="true" />
-                <element signature="e#44550#44551#0" expanded="true" />
-                <element signature="e#44596#44597#0" expanded="true" />
-                <element signature="e#44725#44726#0" expanded="true" />
-                <element signature="e#44761#44762#0" expanded="true" />
-                <element signature="e#44787#44788#0" expanded="true" />
-                <element signature="e#44833#44834#0" expanded="true" />
-                <element signature="e#45316#45346#0" expanded="true" />
-                <element signature="docComment;method#valEquals#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#45725#45726#0" expanded="true" />
-                <element signature="e#45785#45786#0" expanded="true" />
-                <element signature="docComment;method#exportEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#keyOrNull#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#46144#46145#0" expanded="true" />
-                <element signature="e#46193#46194#0" expanded="true" />
-                <element signature="docComment;method#key#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;field#UNBOUNDED#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;field#m#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;field#lo#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#48879#48880#0" expanded="true" />
-                <element signature="e#48939#48940#0" expanded="true" />
-                <element signature="e#49177#49178#0" expanded="true" />
-                <element signature="e#49253#49254#0" expanded="true" />
-                <element signature="docComment;method#absHighFence#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#absLowFence#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#keyIterator#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#descendingKeyIterator#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#52491#52492#0" expanded="true" />
-                <element signature="e#52579#52580#0" expanded="true" />
-                <element signature="e#52608#52609#0" expanded="true" />
-                <element signature="e#52690#52691#0" expanded="true" />
-                <element signature="e#52746#52747#0" expanded="true" />
-                <element signature="e#52811#52812#0" expanded="true" />
-                <element signature="e#53050#53051#0" expanded="true" />
-                <element signature="e#53115#53116#0" expanded="true" />
-                <element signature="e#53160#53161#0" expanded="true" />
-                <element signature="e#53227#53228#0" expanded="true" />
-                <element signature="e#53286#53287#0" expanded="true" />
-                <element signature="e#53345#53346#0" expanded="true" />
-                <element signature="e#53389#53390#0" expanded="true" />
-                <element signature="e#53446#53447#0" expanded="true" />
-                <element signature="e#53504#53505#0" expanded="true" />
-                <element signature="e#53562#53563#0" expanded="true" />
-                <element signature="e#53605#53606#0" expanded="true" />
-                <element signature="e#53661#53662#0" expanded="true" />
-                <element signature="e#53718#53719#0" expanded="true" />
-                <element signature="e#53775#53776#0" expanded="true" />
-                <element signature="e#53817#53818#0" expanded="true" />
-                <element signature="e#53872#53873#0" expanded="true" />
-                <element signature="e#53929#53930#0" expanded="true" />
-                <element signature="e#53986#53987#0" expanded="true" />
-                <element signature="e#54028#54029#0" expanded="true" />
-                <element signature="e#54083#54084#0" expanded="true" />
-                <element signature="e#54120#54121#0" expanded="true" />
-                <element signature="e#54167#54168#0" expanded="true" />
-                <element signature="e#54203#54204#0" expanded="true" />
-                <element signature="e#54251#54252#0" expanded="true" />
-                <element signature="e#54303#54304#0" expanded="true" />
-                <element signature="e#54358#54359#0" expanded="true" />
-                <element signature="e#54409#54410#0" expanded="true" />
-                <element signature="e#54465#54466#0" expanded="true" />
-                <element signature="e#55409#55410#0" expanded="true" />
-                <element signature="e#55457#55458#0" expanded="true" />
-                <element signature="e#55510#55511#0" expanded="true" />
-                <element signature="e#55574#55575#0" expanded="true" />
-                <element signature="e#55640#55641#0" expanded="true" />
-                <element signature="e#55706#55707#0" expanded="true" />
-                <element signature="e#55762#55763#0" expanded="true" />
-                <element signature="e#55814#55815#0" expanded="true" />
-                <element signature="e#55872#55873#0" expanded="true" />
-                <element signature="e#55925#55926#0" expanded="true" />
-                <element signature="docComment;class#SubMapIterator#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#58469#58470#0" expanded="true" />
-                <element signature="e#58544#58545#0" expanded="true" />
-                <element signature="e#60706#60707#0" expanded="true" />
-                <element signature="e#60756#60757#0" expanded="true" />
-                <element signature="e#60791#60792#0" expanded="true" />
-                <element signature="e#60840#60841#0" expanded="true" />
-                <element signature="e#61173#61174#0" expanded="true" />
-                <element signature="e#61223#61224#0" expanded="true" />
-                <element signature="e#61258#61259#0" expanded="true" />
-                <element signature="e#61308#61309#0" expanded="true" />
-                <element signature="e#61684#61685#0" expanded="true" />
-                <element signature="e#61738#61739#0" expanded="true" />
-                <element signature="e#61773#61774#0" expanded="true" />
-                <element signature="e#61822#61823#0" expanded="true" />
-                <element signature="e#61869#61870#0" expanded="true" />
-                <element signature="e#61912#61913#0" expanded="true" />
-                <element signature="e#62354#62355#0" expanded="true" />
-                <element signature="e#62407#62408#0" expanded="true" />
-                <element signature="e#62638#62639#0" expanded="true" />
-                <element signature="e#62710#62711#0" expanded="true" />
-                <element signature="e#63048#63049#0" expanded="true" />
-                <element signature="e#63102#63103#0" expanded="true" />
-                <element signature="e#63137#63138#0" expanded="true" />
-                <element signature="e#63187#63188#0" expanded="true" />
-                <element signature="e#63234#63235#0" expanded="true" />
-                <element signature="e#63277#63278#0" expanded="true" />
-                <element signature="e#63719#63720#0" expanded="true" />
-                <element signature="e#63772#63773#0" expanded="true" />
-                <element signature="e#63815#63816#0" expanded="true" />
-                <element signature="e#63896#63897#0" expanded="true" />
-                <element signature="docComment;class#AscendingSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#64421#64422#0" expanded="true" />
-                <element signature="e#64466#64467#0" expanded="true" />
-                <element signature="e#66244#66245#0" expanded="true" />
-                <element signature="e#66325#66326#0" expanded="true" />
-                <element signature="e#66368#66369#0" expanded="true" />
-                <element signature="e#66449#66450#0" expanded="true" />
-                <element signature="e#66496#66497#0" expanded="true" />
-                <element signature="e#66587#66588#0" expanded="true" />
-                <element signature="e#66710#66711#0" expanded="true" />
-                <element signature="e#66801#66802#0" expanded="true" />
-                <element signature="docComment;class#DescendingSubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#68060#68061#0" expanded="true" />
-                <element signature="e#68108#68109#0" expanded="true" />
-                <element signature="e#69883#69884#0" expanded="true" />
-                <element signature="e#69974#69975#0" expanded="true" />
-                <element signature="e#70017#70018#0" expanded="true" />
-                <element signature="e#70108#70109#0" expanded="true" />
-                <element signature="e#70155#70156#0" expanded="true" />
-                <element signature="e#70236#70237#0" expanded="true" />
-                <element signature="docComment;class#SubMap#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;class#Entry#0;class#TreeMap#0" expanded="false" />
-                <element signature="class#Entry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#Entry#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#getKey#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#73335#73336#0" expanded="true" />
-                <element signature="e#73369#73370#0" expanded="true" />
-                <element signature="docComment;method#getValue#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#73542#73543#0" expanded="true" />
-                <element signature="e#73578#73579#0" expanded="true" />
-                <element signature="docComment;method#setValue#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#74459#74460#0" expanded="true" />
-                <element signature="e#74507#74508#0" expanded="true" />
-                <element signature="docComment;method#getFirstEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#getLastEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#successor#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#predecessor#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#colorOf#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#76802#76803#0" expanded="true" />
-                <element signature="e#76854#76855#0" expanded="true" />
-                <element signature="e#76916#76917#0" expanded="true" />
-                <element signature="e#76967#76968#0" expanded="true" />
-                <element signature="e#77148#77149#0" expanded="true" />
-                <element signature="e#77197#77198#0" expanded="true" />
-                <element signature="e#77258#77259#0" expanded="true" />
-                <element signature="e#77308#77309#0" expanded="true" />
-                <element signature="docComment;method#rotateLeft#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#rotateRight#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#fixAfterInsertion#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#deleteEntry#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#fixAfterDeletion#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#writeObject#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#readObject#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#readTreeSet#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#addAllForTreeSet#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#buildFromSorted#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#buildFromSorted#1;class#TreeMap#0" expanded="false" />
-                <element signature="e#88933#88963#0" expanded="true" />
-                <element signature="docComment;method#computeRedLevel#0;class#TreeMap#0" expanded="false" />
-                <element signature="docComment;method#keySpliteratorFor#0;class#TreeMap#0" expanded="false" />
-                <element signature="e#92533#92563#1" expanded="true" />
-                <element signature="e#92731#92761#1" expanded="true" />
-                <element signature="e#92926#92956#1" expanded="true" />
-                <element signature="e#93108#93138#1" expanded="true" />
-                <element signature="e#93288#93289#0" expanded="true" />
-                <element signature="e#93362#93363#0" expanded="true" />
-                <element signature="e#96216#96217#0" expanded="true" />
-                <element signature="e#96266#96267#0" expanded="true" />
-                <element signature="e#99254#99255#0" expanded="true" />
-                <element signature="e#99300#99301#0" expanded="true" />
-                <element signature="e#105114#105115#0" expanded="true" />
-                <element signature="e#105202#105203#0" expanded="true" />
-                <element signature="e#108579#108609#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.8611111">
+              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#2241#2242#0" expanded="true" />
+                <element signature="e#2299#2300#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2408#2409#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+                <element signature="e#2555#2556#0" expanded="true" />
+                <element signature="e#2611#2612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <caret line="2213" column="5" selection-start-line="2211" selection-start-column="4" selection-end-line="2213" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8791019">
-              <caret line="397" column="21" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="212" column="11" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -395,7 +112,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kayon08 &lt;katyon08@gmail.com&gt;" />
+        <option value="Katyon08" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ParamedArray" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -406,9 +137,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" />
-        <option value="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -417,8 +155,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -443,7 +181,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -480,15 +220,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="katyon08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashTable.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="243" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="922" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="245" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="233" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="240" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="919" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -645,79 +423,199 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f811f25-a0a4-410a-b65d-521bd9175f59" name="Default" comment="" />
-      <created>1432123627460</created>
+      <changelist id="b86926cf-8a4a-47e1-bc91-00875fd5711a" name="Default" comment="" />
+      <created>1431961033984</created>
       <option name="number" value="Default" />
-      <updated>1432123627460</updated>
+      <updated>1431961033984</updated>
     </task>
-    <task id="LOCAL-00001" summary="v 1.2">
-      <created>1432127934794</created>
+    <task id="LOCAL-00001" summary="First">
+      <created>1431961697387</created>
       <option name="number" value="00001" />
       <option name="project" value="LOCAL" />
-      <updated>1432127934794</updated>
+      <updated>1431961697387</updated>
     </task>
-    <task id="LOCAL-00002" summary="v 1.2">
-      <created>1432128998592</created>
+    <task id="LOCAL-00002" summary="Structure: tableIndex[localHash(hashCode(Key))]">
+      <created>1431962410680</created>
       <option name="number" value="00002" />
       <option name="project" value="LOCAL" />
-      <updated>1432128998592</updated>
+      <updated>1431962410680</updated>
     </task>
-    <task id="LOCAL-00003" summary="v 1.2.1">
-      <created>1432133270630</created>
+    <task id="LOCAL-00003" summary="Start of parameterized array's way">
+      <created>1431964350837</created>
       <option name="number" value="00003" />
       <option name="project" value="LOCAL" />
-      <updated>1432133270630</updated>
+      <updated>1431964350837</updated>
     </task>
-    <task id="LOCAL-00004" summary="v 1.2.1">
-      <created>1432143992109</created>
+    <task id="LOCAL-00004" summary="table values[] ready">
+      <created>1431966768500</created>
       <option name="number" value="00004" />
       <option name="project" value="LOCAL" />
-      <updated>1432143992109</updated>
+      <updated>1431966768500</updated>
     </task>
-    <task id="LOCAL-00005" summary="v 1.2.1">
-      <created>1432201749379</created>
+    <task id="LOCAL-00005" summary="table values[] ready&#10;Class InvalidIndexExpression extends Exception replased out from HashTable class">
+      <created>1431967006148</created>
       <option name="number" value="00005" />
       <option name="project" value="LOCAL" />
-      <updated>1432201749379</updated>
+      <updated>1431967006148</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="put ready&#10;checkLoadFactory not ready">
+      <created>1431969463484</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1431969463484</updated>
+    </task>
+    <task id="LOCAL-00007" summary="some changes">
+      <created>1431969657211</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1431969657211</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Put ready, CLF not ready">
+      <created>1431969958522</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1431969958522</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TableIndex isn't realize">
+      <created>1431970047974</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1431970047974</updated>
+    </task>
+    <task id="LOCAL-00010" summary="put ready, hash(hash) = hashm CLF not ready">
+      <created>1431970477963</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1431970477963</updated>
+    </task>
+    <task id="LOCAL-00011" summary="put ready, hash(hash) = hashm CLF not ready, working in hashcollisions in main">
+      <created>1431971234372</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1431971234372</updated>
+    </task>
+    <task id="LOCAL-00012" summary="put ready, hash(hash) = hashm CLF not ready, working in hashcollisions in main">
+      <created>1431971559264</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1431971559264</updated>
+    </task>
+    <task id="LOCAL-00013" summary="put ready, hash ready, CLF ready">
+      <created>1431979297663</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1431979297663</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Main cheked that put is works right">
+      <created>1431980383999</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1431980383999</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Main cheked that put is works right. Falls repared.">
+      <created>1431982976199</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1431982976199</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Get in proces">
+      <created>1431983570147</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1431983570147</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Desided to add key[] to structure">
+      <created>1432022338130</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1432022338130</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Desided to add key[] to structure">
+      <created>1432026958462</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1432026958462</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Version 1.0">
+      <created>1432043936574</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1432043936574</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Version 1.1">
+      <created>1432050166922</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1432050166922</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Version 1.1">
+      <created>1432050378863</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1432050378863</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Version 1.1">
+      <created>1432052649229</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1432052649229</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Version 1.00">
+      <created>1432282748519</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1432282748519</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Version 1.2">
+      <created>1432301227400</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1432301227400</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.335177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30149597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39184952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16564792" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17909536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="22" y="663" width="293" height="304" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2774524" sideWeight="0.34012538" order="3" side_tool="false" content_ui="combo" x="572" y="107" width="221" height="514" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2774524" sideWeight="0.6598746" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16178624" sideWeight="0.5062696" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26927504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3228261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -732,13 +630,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v 1.2" />
-    <MESSAGE value="v 1.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 1.2.1" />
+    <MESSAGE value="First" />
+    <MESSAGE value="Structure: tableIndex[localHash(hashCode(Key))]" />
+    <MESSAGE value="Start of parameterized array's way" />
+    <MESSAGE value="table values[]" />
+    <MESSAGE value="table values[] ready" />
+    <MESSAGE value="table values[] ready&#10;Class InvalidIndexExpression extends Exception replased out from HashTable class" />
+    <MESSAGE value="put ready&#10;checkLoadFactory not ready" />
+    <MESSAGE value="some changes" />
+    <MESSAGE value="Put ready, CLF not ready" />
+    <MESSAGE value="TableIndex isn't realize" />
+    <MESSAGE value="put ready, hash(hash) = hashm CLF not ready" />
+    <MESSAGE value="put ready, hash(hash) = hashm CLF not ready, working in hashcollisions in main" />
+    <MESSAGE value="put ready, hash ready, CLF ready" />
+    <MESSAGE value="Main cheked that put is works right" />
+    <MESSAGE value="Main cheked that put is works right. Falls repared." />
+    <MESSAGE value="Mget in proces" />
+    <MESSAGE value="Get in proces" />
+    <MESSAGE value="Desided to add key[] to structure" />
+    <MESSAGE value="Version 1.0" />
+    <MESSAGE value="Version 1.1" />
+    <MESSAGE value="Version 1.00" />
+    <MESSAGE value="Version 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -747,653 +668,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <caret line="1285" column="28" selection-start-line="1285" selection-start-column="22" selection-end-line="1285" selection-end-column="28" />
           <folding>
+            <element signature="e#0#48858#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#256#274#0" expanded="true" />
+            <element signature="e#44925#44926#0" expanded="true" />
+            <element signature="e#44991#44992#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="47" selection-start-line="238" selection-start-column="47" selection-end-line="238" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/HashStructures.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_INITIAL_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MAXIMUM_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_LOAD_FACTOR#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#TREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#UNTREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MIN_TREEIFY_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#Node#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#hash#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#comparableClassFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#compareComparables#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tableSizeFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#table#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#threshold#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#loadFactor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#1;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#2;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#3;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putMapEntries#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putVal#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#resize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeifyBin#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#reinitialize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#root#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#moveRootToFront#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#find#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tieBreakOrder#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#untreeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putTreeVal#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#split#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#checkInvariants#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#28567#0" expanded="false" />
-            <element signature="docComment;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2279#2280#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2469#2470#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#6210#6211#0" expanded="false" />
-            <element signature="e#6267#6268#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#9401#9402#0" expanded="false" />
-            <element signature="e#9435#9436#0" expanded="false" />
-            <element signature="docComment;field#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#10823#10824#0" expanded="false" />
-            <element signature="e#10897#10898#0" expanded="false" />
-            <element signature="e#10940#10941#0" expanded="false" />
-            <element signature="e#11020#11021#0" expanded="false" />
-            <element signature="e#11068#11069#0" expanded="false" />
-            <element signature="e#11134#11135#0" expanded="false" />
-            <element signature="e#11212#11213#0" expanded="false" />
-            <element signature="e#11282#11283#0" expanded="false" />
-            <element signature="e#11326#11327#0" expanded="false" />
-            <element signature="e#11399#11400#0" expanded="false" />
-            <element signature="e#11438#11439#0" expanded="false" />
-            <element signature="e#11502#11503#0" expanded="false" />
-            <element signature="e#11555#11556#0" expanded="false" />
-            <element signature="e#11633#11634#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#12773#12774#0" expanded="false" />
-            <element signature="e#12847#12848#0" expanded="false" />
-            <element signature="e#12890#12891#0" expanded="false" />
-            <element signature="e#12972#12973#0" expanded="false" />
-            <element signature="e#13020#13021#0" expanded="false" />
-            <element signature="e#13086#13087#0" expanded="false" />
-            <element signature="e#13164#13165#0" expanded="false" />
-            <element signature="e#13234#13235#0" expanded="false" />
-            <element signature="e#13278#13279#0" expanded="false" />
-            <element signature="e#13351#13352#0" expanded="false" />
-            <element signature="e#13390#13391#0" expanded="false" />
-            <element signature="e#13454#13455#0" expanded="false" />
-            <element signature="e#13507#13508#0" expanded="false" />
-            <element signature="e#13587#13588#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#eq#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#18799#18800#0" expanded="false" />
-            <element signature="e#18861#18862#0" expanded="false" />
-            <element signature="docComment;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#20730#20731#0" expanded="false" />
-            <element signature="e#20764#20765#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#20945#20946#0" expanded="false" />
-            <element signature="e#20981#20982#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#23799#23800#0" expanded="false" />
-            <element signature="e#23847#23848#0" expanded="false" />
-            <element signature="docComment;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#25274#25275#0" expanded="false" />
-            <element signature="e#25308#25309#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#25489#25490#0" expanded="false" />
-            <element signature="e#25525#25526#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#26021#26022#0" expanded="false" />
-            <element signature="e#26086#26087#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#28507#28508#0" expanded="false" />
-            <element signature="e#28555#28556#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#6551#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#17839#0" expanded="false" />
-            <element signature="e#17760#17761#0" expanded="false" />
-            <element signature="e#17835#17836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="238" column="47" selection-start-line="238" selection-start-column="47" selection-end-line="238" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
-          <folding>
-            <element signature="docComment;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_INITIAL_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MAXIMUM_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_LOAD_FACTOR#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#TREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#UNTREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MIN_TREEIFY_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#Node#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#hash#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#comparableClassFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#compareComparables#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tableSizeFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#table#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#threshold#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#loadFactor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#1;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#2;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#3;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putMapEntries#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putVal#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#resize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeifyBin#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#reinitialize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#root#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#moveRootToFront#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#find#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tieBreakOrder#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#untreeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putTreeVal#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#split#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#checkInvariants#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#28567#0" expanded="false" />
-            <element signature="docComment;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2279#2280#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2469#2470#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#6210#6211#0" expanded="false" />
-            <element signature="e#6267#6268#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#9401#9402#0" expanded="false" />
-            <element signature="e#9435#9436#0" expanded="false" />
-            <element signature="docComment;field#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#10823#10824#0" expanded="false" />
-            <element signature="e#10897#10898#0" expanded="false" />
-            <element signature="e#10940#10941#0" expanded="false" />
-            <element signature="e#11020#11021#0" expanded="false" />
-            <element signature="e#11068#11069#0" expanded="false" />
-            <element signature="e#11134#11135#0" expanded="false" />
-            <element signature="e#11212#11213#0" expanded="false" />
-            <element signature="e#11282#11283#0" expanded="false" />
-            <element signature="e#11326#11327#0" expanded="false" />
-            <element signature="e#11399#11400#0" expanded="false" />
-            <element signature="e#11438#11439#0" expanded="false" />
-            <element signature="e#11502#11503#0" expanded="false" />
-            <element signature="e#11555#11556#0" expanded="false" />
-            <element signature="e#11633#11634#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#12773#12774#0" expanded="false" />
-            <element signature="e#12847#12848#0" expanded="false" />
-            <element signature="e#12890#12891#0" expanded="false" />
-            <element signature="e#12972#12973#0" expanded="false" />
-            <element signature="e#13020#13021#0" expanded="false" />
-            <element signature="e#13086#13087#0" expanded="false" />
-            <element signature="e#13164#13165#0" expanded="false" />
-            <element signature="e#13234#13235#0" expanded="false" />
-            <element signature="e#13278#13279#0" expanded="false" />
-            <element signature="e#13351#13352#0" expanded="false" />
-            <element signature="e#13390#13391#0" expanded="false" />
-            <element signature="e#13454#13455#0" expanded="false" />
-            <element signature="e#13507#13508#0" expanded="false" />
-            <element signature="e#13587#13588#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#eq#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#18799#18800#0" expanded="false" />
-            <element signature="e#18861#18862#0" expanded="false" />
-            <element signature="docComment;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#20730#20731#0" expanded="false" />
-            <element signature="e#20764#20765#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#20945#20946#0" expanded="false" />
-            <element signature="e#20981#20982#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#23799#23800#0" expanded="false" />
-            <element signature="e#23847#23848#0" expanded="false" />
-            <element signature="docComment;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#25274#25275#0" expanded="false" />
-            <element signature="e#25308#25309#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#25489#25490#0" expanded="false" />
-            <element signature="e#25525#25526#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#26021#26022#0" expanded="false" />
-            <element signature="e#26086#26087#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#28507#28508#0" expanded="false" />
-            <element signature="e#28555#28556#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#6551#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#17839#0" expanded="false" />
-            <element signature="e#17760#17761#0" expanded="false" />
-            <element signature="e#17835#17836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#17839#0" expanded="false" />
-            <element signature="e#17760#17761#0" expanded="false" />
-            <element signature="e#17835#17836#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#6551#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#28567#0" expanded="false" />
-            <element signature="docComment;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2279#2280#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2469#2470#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#6210#6211#0" expanded="false" />
-            <element signature="e#6267#6268#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#9401#9402#0" expanded="false" />
-            <element signature="e#9435#9436#0" expanded="false" />
-            <element signature="docComment;field#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#10823#10824#0" expanded="false" />
-            <element signature="e#10897#10898#0" expanded="false" />
-            <element signature="e#10940#10941#0" expanded="false" />
-            <element signature="e#11020#11021#0" expanded="false" />
-            <element signature="e#11068#11069#0" expanded="false" />
-            <element signature="e#11134#11135#0" expanded="false" />
-            <element signature="e#11212#11213#0" expanded="false" />
-            <element signature="e#11282#11283#0" expanded="false" />
-            <element signature="e#11326#11327#0" expanded="false" />
-            <element signature="e#11399#11400#0" expanded="false" />
-            <element signature="e#11438#11439#0" expanded="false" />
-            <element signature="e#11502#11503#0" expanded="false" />
-            <element signature="e#11555#11556#0" expanded="false" />
-            <element signature="e#11633#11634#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#12773#12774#0" expanded="false" />
-            <element signature="e#12847#12848#0" expanded="false" />
-            <element signature="e#12890#12891#0" expanded="false" />
-            <element signature="e#12972#12973#0" expanded="false" />
-            <element signature="e#13020#13021#0" expanded="false" />
-            <element signature="e#13086#13087#0" expanded="false" />
-            <element signature="e#13164#13165#0" expanded="false" />
-            <element signature="e#13234#13235#0" expanded="false" />
-            <element signature="e#13278#13279#0" expanded="false" />
-            <element signature="e#13351#13352#0" expanded="false" />
-            <element signature="e#13390#13391#0" expanded="false" />
-            <element signature="e#13454#13455#0" expanded="false" />
-            <element signature="e#13507#13508#0" expanded="false" />
-            <element signature="e#13587#13588#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#eq#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#18799#18800#0" expanded="false" />
-            <element signature="e#18861#18862#0" expanded="false" />
-            <element signature="docComment;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleEntry#1;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#20730#20731#0" expanded="false" />
-            <element signature="e#20764#20765#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#20945#20946#0" expanded="false" />
-            <element signature="e#20981#20982#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#23799#23800#0" expanded="false" />
-            <element signature="e#23847#23848#0" expanded="false" />
-            <element signature="docComment;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#SimpleImmutableEntry#1;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#25274#25275#0" expanded="false" />
-            <element signature="e#25308#25309#0" expanded="false" />
-            <element signature="docComment;method#getValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#25489#25490#0" expanded="false" />
-            <element signature="e#25525#25526#0" expanded="false" />
-            <element signature="docComment;method#setValue#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#26021#26022#0" expanded="false" />
-            <element signature="e#26086#26087#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#SimpleImmutableEntry#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#28507#28508#0" expanded="false" />
-            <element signature="e#28555#28556#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
-          <folding>
-            <element signature="docComment;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_INITIAL_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MAXIMUM_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_LOAD_FACTOR#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#TREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#UNTREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MIN_TREEIFY_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#Node#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#hash#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#comparableClassFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#compareComparables#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tableSizeFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#table#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#threshold#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#loadFactor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#1;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#2;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#3;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putMapEntries#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putVal#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#resize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeifyBin#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#reinitialize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#root#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#moveRootToFront#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#find#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tieBreakOrder#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#untreeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putTreeVal#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#split#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#checkInvariants#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1401,352 +692,157 @@
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#48858#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#256#274#0" expanded="true" />
+            <element signature="e#44925#44926#0" expanded="true" />
+            <element signature="e#44991#44992#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/jdk/src.zip!/java/util/TreeMap.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1307" column="5" selection-start-line="1307" selection-start-column="5" selection-end-line="1307" selection-end-column="5" />
+          <caret line="1285" column="28" selection-start-line="1285" selection-start-column="22" selection-end-line="1285" selection-end-column="28" />
           <folding>
+            <element signature="e#0#48858#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;field#comparator#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;field#size#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#TreeMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#5767#5768#0" expanded="true" />
-            <element signature="e#5800#5801#0" expanded="true" />
-            <element signature="docComment;method#TreeMap#1;class#TreeMap#0" expanded="false" />
-            <element signature="e#6596#6597#0" expanded="true" />
-            <element signature="e#6640#6641#0" expanded="true" />
-            <element signature="docComment;method#TreeMap#2;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#TreeMap#3;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#8418#8419#0" expanded="true" />
-            <element signature="e#8445#8446#0" expanded="true" />
-            <element signature="docComment;method#containsKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#9063#9064#0" expanded="true" />
-            <element signature="e#9107#9108#0" expanded="true" />
-            <element signature="docComment;method#containsValue#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#11206#11207#0" expanded="true" />
-            <element signature="e#11239#11240#0" expanded="true" />
-            <element signature="docComment;method#firstKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#11334#11335#0" expanded="true" />
-            <element signature="e#11377#11378#0" expanded="true" />
-            <element signature="docComment;method#lastKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#11471#11472#0" expanded="true" />
-            <element signature="e#11513#11514#0" expanded="true" />
-            <element signature="docComment;method#putAll#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#getEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#13644#13674#1" expanded="true" />
-            <element signature="docComment;method#getEntryUsingComparator#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#14343#14373#1" expanded="true" />
-            <element signature="docComment;method#getCeilingEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#getFloorEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#getHigherEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#getLowerEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#20815#20845#1" expanded="true" />
-            <element signature="docComment;method#remove#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#firstEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#23674#23675#0" expanded="true" />
-            <element signature="e#23725#23726#0" expanded="true" />
-            <element signature="docComment;method#lastEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#23800#23801#0" expanded="true" />
-            <element signature="e#23850#23851#0" expanded="true" />
-            <element signature="docComment;method#pollFirstEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#pollLastEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#lowerEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#24648#24649#0" expanded="true" />
-            <element signature="e#24702#24703#0" expanded="true" />
-            <element signature="docComment;method#lowerKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#24991#24992#0" expanded="true" />
-            <element signature="e#25043#25044#0" expanded="true" />
-            <element signature="docComment;method#floorEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#25347#25348#0" expanded="true" />
-            <element signature="e#25401#25402#0" expanded="true" />
-            <element signature="docComment;method#floorKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#25690#25691#0" expanded="true" />
-            <element signature="e#25742#25743#0" expanded="true" />
-            <element signature="docComment;method#ceilingEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#26048#26049#0" expanded="true" />
-            <element signature="e#26104#26105#0" expanded="true" />
-            <element signature="docComment;method#ceilingKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#26395#26396#0" expanded="true" />
-            <element signature="e#26449#26450#0" expanded="true" />
-            <element signature="docComment;method#higherEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#26754#26755#0" expanded="true" />
-            <element signature="e#26809#26810#0" expanded="true" />
-            <element signature="docComment;method#higherKey#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#27099#27100#0" expanded="true" />
-            <element signature="e#27152#27153#0" expanded="true" />
-            <element signature="docComment;field#entrySet#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#28935#28936#0" expanded="true" />
-            <element signature="e#28975#28976#0" expanded="true" />
-            <element signature="docComment;method#navigableKeySet#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#descendingKeySet#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#29264#29265#0" expanded="true" />
-            <element signature="e#29320#29321#0" expanded="true" />
-            <element signature="docComment;method#values#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#descendingMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#subMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#headMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#tailMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#subMap#1;class#TreeMap#0" expanded="false" />
-            <element signature="e#34417#34418#0" expanded="true" />
-            <element signature="e#34475#34476#0" expanded="true" />
-            <element signature="docComment;method#headMap#1;class#TreeMap#0" expanded="false" />
-            <element signature="e#34816#34817#0" expanded="true" />
-            <element signature="e#34860#34861#0" expanded="true" />
-            <element signature="docComment;method#tailMap#1;class#TreeMap#0" expanded="false" />
-            <element signature="e#35205#35206#0" expanded="true" />
-            <element signature="e#35250#35251#0" expanded="true" />
-            <element signature="e#36757#36758#0" expanded="true" />
-            <element signature="e#36822#36823#0" expanded="true" />
-            <element signature="e#36851#36852#0" expanded="true" />
-            <element signature="e#36901#36902#0" expanded="true" />
-            <element signature="e#36946#36947#0" expanded="true" />
-            <element signature="e#37006#37007#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-            <element signature="e#37391#37392#0" expanded="true" />
-            <element signature="e#37438#37439#0" expanded="true" />
-            <element signature="e#37530#37531#0" expanded="true" />
-            <element signature="e#37647#37648#0" expanded="true" />
-            <element signature="e#37712#37713#0" expanded="true" />
-            <element signature="e#38529#38530#0" expanded="true" />
-            <element signature="e#38579#38580#0" expanded="true" />
-            <element signature="e#38610#38611#0" expanded="true" />
-            <element signature="e#38654#38655#0" expanded="true" />
-            <element signature="e#39154#39155#0" expanded="true" />
-            <element signature="e#39209#39210#0" expanded="true" />
-            <element signature="e#39252#39253#0" expanded="true" />
-            <element signature="e#39316#39317#0" expanded="true" />
-            <element signature="e#41714#41715#0" expanded="true" />
-            <element signature="e#41788#41789#0" expanded="true" />
-            <element signature="e#41839#41840#0" expanded="true" />
-            <element signature="e#41895#41896#0" expanded="true" />
-            <element signature="e#41948#41949#0" expanded="true" />
-            <element signature="e#42005#42006#0" expanded="true" />
-            <element signature="e#42054#42055#0" expanded="true" />
-            <element signature="e#42116#42117#0" expanded="true" />
-            <element signature="e#42163#42164#0" expanded="true" />
-            <element signature="e#42214#42215#0" expanded="true" />
-            <element signature="docComment;class#PrivateEntryIterator#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#42635#42636#0" expanded="true" />
-            <element signature="e#42678#42679#0" expanded="true" />
-            <element signature="e#44039#44040#0" expanded="true" />
-            <element signature="e#44075#44076#0" expanded="true" />
-            <element signature="e#44114#44115#0" expanded="true" />
-            <element signature="e#44156#44157#0" expanded="true" />
-            <element signature="e#44269#44270#0" expanded="true" />
-            <element signature="e#44305#44306#0" expanded="true" />
-            <element signature="e#44331#44332#0" expanded="true" />
-            <element signature="e#44379#44380#0" expanded="true" />
-            <element signature="e#44488#44489#0" expanded="true" />
-            <element signature="e#44524#44525#0" expanded="true" />
-            <element signature="e#44550#44551#0" expanded="true" />
-            <element signature="e#44596#44597#0" expanded="true" />
-            <element signature="e#44725#44726#0" expanded="true" />
-            <element signature="e#44761#44762#0" expanded="true" />
-            <element signature="e#44787#44788#0" expanded="true" />
-            <element signature="e#44833#44834#0" expanded="true" />
-            <element signature="e#45316#45346#0" expanded="true" />
-            <element signature="docComment;method#valEquals#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#45725#45726#0" expanded="true" />
-            <element signature="e#45785#45786#0" expanded="true" />
-            <element signature="docComment;method#exportEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#keyOrNull#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#46144#46145#0" expanded="true" />
-            <element signature="e#46193#46194#0" expanded="true" />
-            <element signature="docComment;method#key#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;field#UNBOUNDED#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;field#m#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;field#lo#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#48879#48880#0" expanded="true" />
-            <element signature="e#48939#48940#0" expanded="true" />
-            <element signature="e#49177#49178#0" expanded="true" />
-            <element signature="e#49253#49254#0" expanded="true" />
-            <element signature="docComment;method#absHighFence#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#absLowFence#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#keyIterator#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#descendingKeyIterator#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#52491#52492#0" expanded="true" />
-            <element signature="e#52579#52580#0" expanded="true" />
-            <element signature="e#52608#52609#0" expanded="true" />
-            <element signature="e#52690#52691#0" expanded="true" />
-            <element signature="e#52746#52747#0" expanded="true" />
-            <element signature="e#52811#52812#0" expanded="true" />
-            <element signature="e#53050#53051#0" expanded="true" />
-            <element signature="e#53115#53116#0" expanded="true" />
-            <element signature="e#53160#53161#0" expanded="true" />
-            <element signature="e#53227#53228#0" expanded="true" />
-            <element signature="e#53286#53287#0" expanded="true" />
-            <element signature="e#53345#53346#0" expanded="true" />
-            <element signature="e#53389#53390#0" expanded="true" />
-            <element signature="e#53446#53447#0" expanded="true" />
-            <element signature="e#53504#53505#0" expanded="true" />
-            <element signature="e#53562#53563#0" expanded="true" />
-            <element signature="e#53605#53606#0" expanded="true" />
-            <element signature="e#53661#53662#0" expanded="true" />
-            <element signature="e#53718#53719#0" expanded="true" />
-            <element signature="e#53775#53776#0" expanded="true" />
-            <element signature="e#53817#53818#0" expanded="true" />
-            <element signature="e#53872#53873#0" expanded="true" />
-            <element signature="e#53929#53930#0" expanded="true" />
-            <element signature="e#53986#53987#0" expanded="true" />
-            <element signature="e#54028#54029#0" expanded="true" />
-            <element signature="e#54083#54084#0" expanded="true" />
-            <element signature="e#54120#54121#0" expanded="true" />
-            <element signature="e#54167#54168#0" expanded="true" />
-            <element signature="e#54203#54204#0" expanded="true" />
-            <element signature="e#54251#54252#0" expanded="true" />
-            <element signature="e#54303#54304#0" expanded="true" />
-            <element signature="e#54358#54359#0" expanded="true" />
-            <element signature="e#54409#54410#0" expanded="true" />
-            <element signature="e#54465#54466#0" expanded="true" />
-            <element signature="e#55409#55410#0" expanded="true" />
-            <element signature="e#55457#55458#0" expanded="true" />
-            <element signature="e#55510#55511#0" expanded="true" />
-            <element signature="e#55574#55575#0" expanded="true" />
-            <element signature="e#55640#55641#0" expanded="true" />
-            <element signature="e#55706#55707#0" expanded="true" />
-            <element signature="e#55762#55763#0" expanded="true" />
-            <element signature="e#55814#55815#0" expanded="true" />
-            <element signature="e#55872#55873#0" expanded="true" />
-            <element signature="e#55925#55926#0" expanded="true" />
-            <element signature="docComment;class#SubMapIterator#0;class#NavigableSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#58469#58470#0" expanded="true" />
-            <element signature="e#58544#58545#0" expanded="true" />
-            <element signature="e#60706#60707#0" expanded="true" />
-            <element signature="e#60756#60757#0" expanded="true" />
-            <element signature="e#60791#60792#0" expanded="true" />
-            <element signature="e#60840#60841#0" expanded="true" />
-            <element signature="e#61173#61174#0" expanded="true" />
-            <element signature="e#61223#61224#0" expanded="true" />
-            <element signature="e#61258#61259#0" expanded="true" />
-            <element signature="e#61308#61309#0" expanded="true" />
-            <element signature="e#61684#61685#0" expanded="true" />
-            <element signature="e#61738#61739#0" expanded="true" />
-            <element signature="e#61773#61774#0" expanded="true" />
-            <element signature="e#61822#61823#0" expanded="true" />
-            <element signature="e#61869#61870#0" expanded="true" />
-            <element signature="e#61912#61913#0" expanded="true" />
-            <element signature="e#62354#62355#0" expanded="true" />
-            <element signature="e#62407#62408#0" expanded="true" />
-            <element signature="e#62638#62639#0" expanded="true" />
-            <element signature="e#62710#62711#0" expanded="true" />
-            <element signature="e#63048#63049#0" expanded="true" />
-            <element signature="e#63102#63103#0" expanded="true" />
-            <element signature="e#63137#63138#0" expanded="true" />
-            <element signature="e#63187#63188#0" expanded="true" />
-            <element signature="e#63234#63235#0" expanded="true" />
-            <element signature="e#63277#63278#0" expanded="true" />
-            <element signature="e#63719#63720#0" expanded="true" />
-            <element signature="e#63772#63773#0" expanded="true" />
-            <element signature="e#63815#63816#0" expanded="true" />
-            <element signature="e#63896#63897#0" expanded="true" />
-            <element signature="docComment;class#AscendingSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#64421#64422#0" expanded="true" />
-            <element signature="e#64466#64467#0" expanded="true" />
-            <element signature="e#66244#66245#0" expanded="true" />
-            <element signature="e#66325#66326#0" expanded="true" />
-            <element signature="e#66368#66369#0" expanded="true" />
-            <element signature="e#66449#66450#0" expanded="true" />
-            <element signature="e#66496#66497#0" expanded="true" />
-            <element signature="e#66587#66588#0" expanded="true" />
-            <element signature="e#66710#66711#0" expanded="true" />
-            <element signature="e#66801#66802#0" expanded="true" />
-            <element signature="docComment;class#DescendingSubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#68060#68061#0" expanded="true" />
-            <element signature="e#68108#68109#0" expanded="true" />
-            <element signature="e#69883#69884#0" expanded="true" />
-            <element signature="e#69974#69975#0" expanded="true" />
-            <element signature="e#70017#70018#0" expanded="true" />
-            <element signature="e#70108#70109#0" expanded="true" />
-            <element signature="e#70155#70156#0" expanded="true" />
-            <element signature="e#70236#70237#0" expanded="true" />
-            <element signature="docComment;class#SubMap#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;class#Entry#0;class#TreeMap#0" expanded="false" />
-            <element signature="class#Entry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#Entry#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#getKey#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#73335#73336#0" expanded="true" />
-            <element signature="e#73369#73370#0" expanded="true" />
-            <element signature="docComment;method#getValue#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#73542#73543#0" expanded="true" />
-            <element signature="e#73578#73579#0" expanded="true" />
-            <element signature="docComment;method#setValue#0;class#Entry#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#74459#74460#0" expanded="true" />
-            <element signature="e#74507#74508#0" expanded="true" />
-            <element signature="docComment;method#getFirstEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#getLastEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#successor#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#predecessor#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#colorOf#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#76802#76803#0" expanded="true" />
-            <element signature="e#76854#76855#0" expanded="true" />
-            <element signature="e#76916#76917#0" expanded="true" />
-            <element signature="e#76967#76968#0" expanded="true" />
-            <element signature="e#77148#77149#0" expanded="true" />
-            <element signature="e#77197#77198#0" expanded="true" />
-            <element signature="e#77258#77259#0" expanded="true" />
-            <element signature="e#77308#77309#0" expanded="true" />
-            <element signature="docComment;method#rotateLeft#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#rotateRight#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#fixAfterInsertion#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#deleteEntry#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#fixAfterDeletion#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#readTreeSet#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#addAllForTreeSet#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#buildFromSorted#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#buildFromSorted#1;class#TreeMap#0" expanded="false" />
-            <element signature="e#88933#88963#0" expanded="true" />
-            <element signature="docComment;method#computeRedLevel#0;class#TreeMap#0" expanded="false" />
-            <element signature="docComment;method#keySpliteratorFor#0;class#TreeMap#0" expanded="false" />
-            <element signature="e#92533#92563#1" expanded="true" />
-            <element signature="e#92731#92761#1" expanded="true" />
-            <element signature="e#92926#92956#1" expanded="true" />
-            <element signature="e#93108#93138#1" expanded="true" />
-            <element signature="e#93288#93289#0" expanded="true" />
-            <element signature="e#93362#93363#0" expanded="true" />
-            <element signature="e#96216#96217#0" expanded="true" />
-            <element signature="e#96266#96267#0" expanded="true" />
-            <element signature="e#99254#99255#0" expanded="true" />
-            <element signature="e#99300#99301#0" expanded="true" />
-            <element signature="e#105114#105115#0" expanded="true" />
-            <element signature="e#105202#105203#0" expanded="true" />
-            <element signature="e#108579#108609#1" expanded="true" />
+            <element signature="e#44925#44926#0" expanded="true" />
+            <element signature="e#44991#44992#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33269963">
+          <caret line="829" column="0" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319672">
+          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashStructures.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8791019">
-          <caret line="397" column="21" selection-start-line="397" selection-start-column="21" selection-end-line="397" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="415" column="25" selection-start-line="415" selection-start-column="25" selection-end-line="415" selection-end-column="25" />
+          <folding>
+            <element signature="e#4058#4088#0" expanded="false" />
+            <element signature="e#4358#4388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="212" column="11" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#48858#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#44925#44926#0" expanded="true" />
+            <element signature="e#44991#44992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2213" column="5" selection-start-line="2211" selection-start-column="4" selection-end-line="2213" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8611111">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
