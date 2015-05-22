@@ -411,6 +411,16 @@ public class HashTable<K, V> {
         return true;
     }
 
+    public int hashCode() {
+        int keyHash = 0;
+        int valueHash = 0;
+        for (int i = 0; i < capacity; i++) {
+            keyHash += (tableValidity[i] ? keyTable[i].hashCode() : 0);
+            valueHash += (tableValidity[i] ? table[i].hashCode() : 0);
+        }
+        return keyHash ^ valueHash;
+    }
+
     /**
      * Returns a string representation of this Hashtable object in the form of a set of entries,
      * enclosed by || symbol.
