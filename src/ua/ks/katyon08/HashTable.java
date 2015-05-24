@@ -275,7 +275,10 @@ public class HashTable<K, V> {
      */
     public void clear() {
         for (boolean value : tableValidity) {
-            value = false;
+            if (value) {
+                value = false;
+                count--;
+            }
         }
     }
 
