@@ -1,10 +1,10 @@
 //import junit.framework.Assert;
+
 import org.junit.Test;
 import ua.ks.katyon08.HashTable;
 
 import java.util.Map;
 import java.util.Random;
-import java.util.TreeMap;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -19,7 +19,7 @@ public class HashTableTest {
         assertEquals(hashTable.get(10), s);
     }
 
-    @Test
+  /* @Test
     public void testPutAll() {
         HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
         Map<Integer, String> map1 = new TreeMap<Integer, String>(), map2 = new TreeMap<Integer, String>();
@@ -39,6 +39,7 @@ public class HashTableTest {
         //System.out.println("size = " + hashTable.map1.put(x = rnd.nextInt(100).size() + "\n" + hashTable.toStringDevelopMode() + "\n ____________ \n" + map1.toString() + "\n _____________ \n" + map2.toString());
         assertEquals(map1, map2);
     }
+    /**/
 
     @Test
     public void testPutAllAnother() {
@@ -85,6 +86,11 @@ public class HashTableTest {
         }
         assertEquals(hashTable, hashTable.clone());
     }
+
+    /*@Test
+    public void getTest() {
+
+    }*/
 
 
 }

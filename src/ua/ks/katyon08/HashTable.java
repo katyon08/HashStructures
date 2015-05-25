@@ -219,7 +219,7 @@ public class HashTable<K, V> {
         Set<K> setOfKeys = t.keySet();
         if (setOfKeys == null) throw new NullPointerException();
         for (K key : setOfKeys) {
-            put(key, get(key));
+            put(key, t.get(key));
         }
 
     }
@@ -264,7 +264,7 @@ public class HashTable<K, V> {
         if (key == null)
             throw new NullPointerException();
         for (int i = 0; i < capacity; i++) {
-            if (tableValidity[hashCode]
+            if ( tableValidity[hashCode]
                     && keyTable[hashCode].equals(key)){
                 return table[hashCode];
             }
