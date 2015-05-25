@@ -233,6 +233,7 @@ public class HashTable<K, V> {
         if (duringLoad >= loadFactor) {
             int oldCapacity = capacity;
             capacity = 3*oldCapacity/2 + 1;
+            System.out.println("reloading " + oldCapacity + " to " + capacity + " by loadfactor " + duringLoad);
             V[] newTable = genericValueArray(capacity);
             K[] newKeyTable = genericKeyArray(capacity);
             boolean[] newTableValidity = new boolean[capacity];
@@ -244,6 +245,7 @@ public class HashTable<K, V> {
             table = newTable;
             tableValidity = newTableValidity;
             keyTable = newKeyTable;
+
         }
     }
 
@@ -292,7 +294,9 @@ public class HashTable<K, V> {
     public Object clone() {
         HashTable<K, V> copiedTable = new HashTable<K, V>(loadFactor, capacity);
         for (int i = 0; i < capacity; i++) {
-            copiedTable.put(keyTable[i], table[i]);
+            if (tableValidity[i]) {
+                copiedTable.put(keyTable[i], table[i]);
+            }
         }
         return copiedTable;
     }

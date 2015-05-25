@@ -7,6 +7,7 @@ import java.util.Random;
 import java.util.TreeMap;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class HashTableTest {
 
@@ -21,17 +22,37 @@ public class HashTableTest {
     @Test
     public void testPutAll() {
         HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
-        Map<Integer, String> map1 = new TreeMap<>(), map2 = new TreeMap<>();
+        Map<Integer, String> map1 = new TreeMap<Integer, String>(), map2 = new TreeMap<Integer, String>();
         Random rnd = new Random();
-        Integer count = rnd.nextInt(50), x;
+        Integer count = rnd.nextInt(100), x;
+        System.out.println("count = " + count);
         for (int i = 0; i < count; i++) {
             map1.put(x = rnd.nextInt(100), String.valueOf(x));
             hashTable.put(x, String.valueOf(x));
+            System.out.println("i = " + i + " || putting " + x);
         }
         for (Integer y : map1.keySet()) {
             map2.put(y, hashTable.get(y));
         }
+        //System.out.println("size = " + hashTable.map1.put(x = rnd.nextInt(100).size() + "\n" + hashTable.toStringDevelopMode() + "\n ____________ \n" + map1.toString() + "\n _____________ \n" + map2.toString());
         assertEquals(map1, map2);
+    }
+
+    @Test
+    public void testPutAllAnother() {
+        Random rnd = new Random();
+        Map<Integer, String> map = new java.util.TreeMap<Integer, String>();
+        HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
+        int x, count = rnd.nextInt(99) + 1;
+        for (int i = 0; i < count; i++) {
+            map.put(x = rnd.nextInt(100), String.valueOf(x));
+        }
+        hashTable.putAll(map);
+        boolean right = true;
+        for (Integer key : map.keySet()) {
+            right = right && hashTable.containsKey(key);
+        }
+        assertTrue(right);
     }
 
     @Test
@@ -47,7 +68,17 @@ public class HashTableTest {
         assertEquals(hashTable.size(), 0);
     }
 
-
+    @Test
+    public void cloneTest() {
+        Random rnd = new Random();
+        HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
+        int x;
+        for (int i = 0; i < rnd.nextInt(50); i++) {
+            x = rnd.nextInt(100);
+            hashTable.put(x, String.valueOf(x));
+        }
+        assertEquals(hashTable, hashTable.clone());
+    }
 
 
 }
