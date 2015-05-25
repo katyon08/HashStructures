@@ -217,6 +217,7 @@ public class HashTable<K, V> {
      */
     public void putAll(Map<K, V> t) {
         Set<K> setOfKeys = t.keySet();
+        if (setOfKeys == null) throw new NullPointerException();
         for (K key : setOfKeys) {
             put(key, get(key));
         }

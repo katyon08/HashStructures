@@ -27,9 +27,11 @@ public class HashTableTest {
         Integer count = rnd.nextInt(100), x;
         System.out.println("count = " + count);
         for (int i = 0; i < count; i++) {
-            map1.put(x = rnd.nextInt(100), String.valueOf(x));
-            hashTable.put(x, String.valueOf(x));
-            System.out.println("i = " + i + " || putting " + x);
+            if (!map1.containsKey(x = rnd.nextInt(100))) {
+                map1.put(x, String.valueOf(x));
+                hashTable.put(x, String.valueOf(x));
+                System.out.println("i = " + i + " || putting " + x);
+            }
         }
         for (Integer y : map1.keySet()) {
             map2.put(y, hashTable.get(y));
@@ -42,10 +44,13 @@ public class HashTableTest {
     public void testPutAllAnother() {
         Random rnd = new Random();
         Map<Integer, String> map = new java.util.TreeMap<Integer, String>();
-        HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
+        HashTable<Integer, String> hashTable = new ua.ks.katyon08.HashTable<Integer, String>();
         int x, count = rnd.nextInt(99) + 1;
         for (int i = 0; i < count; i++) {
-            map.put(x = rnd.nextInt(100), String.valueOf(x));
+            if (!map.containsKey(x = rnd.nextInt(100))) {
+                System.out.println(x + " = " + String.valueOf(x));
+                map.put(x, String.valueOf(x));
+                }
         }
         hashTable.putAll(map);
         boolean right = true;
@@ -63,6 +68,7 @@ public class HashTableTest {
         for (int i = 0; i < rnd.nextInt(50); i++) {
             x = rnd.nextInt(100);
             hashTable.put(x, String.valueOf(x));
+            //System.out.println(x + " = " + String.valueOf(x));
         }
         hashTable.clear();
         assertEquals(hashTable.size(), 0);
