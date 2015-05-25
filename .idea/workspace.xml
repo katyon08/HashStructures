@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b86926cf-8a4a-47e1-bc91-00875fd5711a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HashStructures/ua/ks/katyon08/HashTable.class" afterPath="$PROJECT_DIR$/out/production/HashStructures/ua/ks/katyon08/HashTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HashStructures/ua/ks/katyon08/InvalidIndexExpression.class" afterPath="$PROJECT_DIR$/out/production/HashStructures/ua/ks/katyon08/InvalidIndexExpression.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HashTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/HashTableTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -47,14 +45,17 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/HashTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#356#373#0" expanded="true" />
-                <element signature="e#1635#1652#0" expanded="true" />
-                <element signature="e#1731#1748#0" expanded="true" />
-                <element signature="e#2378#2395#0" expanded="true" />
-                <element signature="e#2836#2853#0" expanded="true" />
+                <element signature="e#382#399#0" expanded="true" />
+                <element signature="e#610#627#0" expanded="true" />
+                <element signature="e#678#695#0" expanded="true" />
+                <element signature="e#717#734#0" expanded="true" />
+                <element signature="e#1651#1668#0" expanded="true" />
+                <element signature="e#1747#1764#0" expanded="true" />
+                <element signature="e#2396#2413#0" expanded="true" />
+                <element signature="e#2854#2871#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,8 +64,8 @@
       <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2670157">
-              <caret line="220" column="33" selection-start-line="220" selection-start-column="33" selection-end-line="220" selection-end-column="33" />
+            <state vertical-scroll-proportion="-1.2905759">
+              <caret line="236" column="14" selection-start-line="236" selection-start-column="14" selection-end-line="236" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -279,6 +280,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="katyon08" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="katyon08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashTable.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -707,7 +730,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432553377389</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Version 1.3.3&#10;repared putall">
+      <created>1432572024705</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1432572024705</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -725,13 +754,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.49707174" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3338558" sideWeight="0.4590044" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3338558" sideWeight="0.4531479" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36050156" sideWeight="0.545388" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36050156" sideWeight="0.54831624" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39184952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36050156" sideWeight="0.45461202" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36050156" sideWeight="0.45168376" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28038067" sideWeight="0.46078432" order="3" side_tool="false" content_ui="combo" x="572" y="107" width="221" height="514" />
@@ -760,7 +789,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First" />
     <MESSAGE value="Structure: tableIndex[localHash(hashCode(Key))]" />
     <MESSAGE value="Start of parameterized array's way" />
     <MESSAGE value="table values[]" />
@@ -785,7 +813,8 @@
     <MESSAGE value="Version 1.3" />
     <MESSAGE value="Version 1.3.1&#10;with some working tests" />
     <MESSAGE value="Version 1.3.2&#10;error in testPutAllAnother" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.2&#10;error in testPutAllAnother" />
+    <MESSAGE value="Version 1.3.3&#10;repared putall" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.3&#10;repared putall" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,12 +824,6 @@
           <line>196</line>
           <properties />
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java</url>
-          <line>221</line>
-          <properties />
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1097,22 +1120,25 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/HashTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#356#373#0" expanded="true" />
-            <element signature="e#1635#1652#0" expanded="true" />
-            <element signature="e#1731#1748#0" expanded="true" />
-            <element signature="e#2378#2395#0" expanded="true" />
-            <element signature="e#2836#2853#0" expanded="true" />
+            <element signature="e#382#399#0" expanded="true" />
+            <element signature="e#610#627#0" expanded="true" />
+            <element signature="e#678#695#0" expanded="true" />
+            <element signature="e#717#734#0" expanded="true" />
+            <element signature="e#1651#1668#0" expanded="true" />
+            <element signature="e#1747#1764#0" expanded="true" />
+            <element signature="e#2396#2413#0" expanded="true" />
+            <element signature="e#2854#2871#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2670157">
-          <caret line="220" column="33" selection-start-line="220" selection-start-column="33" selection-end-line="220" selection-end-column="33" />
+        <state vertical-scroll-proportion="-1.2905759">
+          <caret line="236" column="14" selection-start-line="236" selection-start-column="14" selection-end-line="236" selection-end-column="14" />
           <folding />
         </state>
       </provider>

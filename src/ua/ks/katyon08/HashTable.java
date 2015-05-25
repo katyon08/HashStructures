@@ -234,7 +234,7 @@ public class HashTable<K, V> {
         if (duringLoad >= loadFactor) {
             int oldCapacity = capacity;
             capacity = 3*oldCapacity/2 + 1;
-            System.out.println("reloading " + oldCapacity + " to " + capacity + " by loadfactor " + duringLoad);
+            //System.out.println("reloading " + oldCapacity + " to " + capacity + " by loadfactor " + duringLoad);
             V[] newTable = genericValueArray(capacity);
             K[] newKeyTable = genericKeyArray(capacity);
             boolean[] newTableValidity = new boolean[capacity];
