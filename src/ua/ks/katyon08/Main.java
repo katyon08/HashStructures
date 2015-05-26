@@ -5,18 +5,13 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        HashTable<Integer, Integer> table = new HashTable<Integer, Integer>();
         Random rnd = new Random();
-        int x;
-        for (int i = 0; i < 20; i++) {
-            table.put(x = rnd.nextInt(30), x);
+        int x = rnd.nextInt()+50, y[] = { 1, 2, 3};
+        System.out.print("count = " + x + "\n{ ");
+        for (int i = 0; i < 1000; i++) {
+            System.out.print((rnd.nextInt(30000) - 15000) + ", ");
+            if ((i % 10 == 0) && (i != 0)) System.out.println();
         }
-        for (int i = 0; i < 10; i++) {
-            table.remove(rnd.nextInt(30));
-        }
-        System.out.println(table.toStringDevelopMode() + "/n______________");
-        java.util.TreeMap treemap;
-
-
+        System.out.println(" }");
     }
 }

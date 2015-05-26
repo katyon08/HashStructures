@@ -1,5 +1,6 @@
 package ua.ks.katyon08;
 
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -462,6 +463,16 @@ public class HashTable<K, V> {
             }
         }
         return toString;
+    }
+
+    public Set<K> keySet() {
+        Set<K> keySet = new HashSet<K>();
+        for (int i = 0; i < capacity; i++) {
+            if (tableValidity[i]) {
+                keySet.add(keyTable[i]);
+            }
+        }
+        return keySet;
     }
 }
 
