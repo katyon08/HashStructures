@@ -1,8 +1,7 @@
 package ua.ks.katyon08;
 
+import java.util.*;
 import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * This class implements hash table, like java.util.Hashtable.java,
@@ -216,8 +215,8 @@ public class HashTable<K, V> {
      * @param t - income Map consists of pairs key, value.
      * @exception  NullPointerException  if one the keys or values is null
      */
-    public void putAll(Map<K, V> t) {
-        Set<K> setOfKeys = t.keySet();
+    public void putAll(Map<? extends K, ? extends V> t) {
+        Set<? extends K> setOfKeys = t.keySet();
         if (setOfKeys == null) throw new NullPointerException();
         for (K key : setOfKeys) {
             put(key, t.get(key));
@@ -400,6 +399,27 @@ public class HashTable<K, V> {
         return null;
     }
 
+    public boolean removeAll(Collection<?> collection) {
+        Objects.requireNonNull(collection);
+        boolean modified = false;
+        if (size() > collection.size()) {
+            for (Iterator<?> iterator = collection.iterator(); iterator.hasNext(); )
+                modified |= remove(iterator.next());
+        } else {
+            for (Iterator<?> iterator = iterator(); iterator.hasNext(); ) {
+                if (collection.contains(iterator.next())) {
+                    i.remove();
+                    modified = true;
+                }
+            }
+        }
+        return modified;
+    }
+
+    private Iterator<?> iterator() {
+        return new HashTableIterator();
+    }
+
     /**
      * Compares the specified Object with this Map for equality,
      * as per the definition in the Map interface.
@@ -414,7 +434,7 @@ public class HashTable<K, V> {
         boolean notEquals = false;
         for (int i = 0; i < capacity; i++) {
             if (tableValidity[i]) {
-                if (!(table[i].equals(((HashTable<K, V>) obj).get(keyTable[i])))) return false;
+                if (!(table[i].equals(((HashTable<K, V>) obj).table[i]))) return false;
             }
         }
         return true;
@@ -473,6 +493,23 @@ public class HashTable<K, V> {
             }
         }
         return keySet;
+    }
+
+    private class HashTableIterator implements Iterator<?> {
+        @Override
+        public boolean hasNext() {
+            return false;
+        }
+
+        @Override
+        public Object next() {
+            return null;
+        }
+
+        @Override
+        public void remove() {
+
+        }
     }
 }
 
