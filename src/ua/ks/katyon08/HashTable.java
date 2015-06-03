@@ -2,6 +2,7 @@ package ua.ks.katyon08;
 
 import java.util.*;
 import java.util.HashSet;
+import java.util.function.Consumer;
 
 /**
  * This class implements hash table, like java.util.Hashtable.java,
@@ -399,25 +400,51 @@ public class HashTable<K, V> {
         return null;
     }
 
-    public boolean removeAll(Collection<?> collection) {
-        Objects.requireNonNull(collection);
+    public boolean removeAllKeys(Collection<K> collection) {
         boolean modified = false;
-        if (size() > collection.size()) {
-            for (Iterator<?> iterator = collection.iterator(); iterator.hasNext(); )
-                modified |= remove(iterator.next());
-        } else {
-            for (Iterator<?> iterator = iterator(); iterator.hasNext(); ) {
-                if (collection.contains(iterator.next())) {
-                    i.remove();
-                    modified = true;
-                }
+        for (K key : collection) {
+            if (containsKey(key)) {
+                remove(key);
+                modified &= true;
             }
         }
         return modified;
     }
 
-    private Iterator<?> iterator() {
-        return new HashTableIterator();
+    public boolean removeAllValues(Collection<V> collection) {
+        boolean modified = false;
+        for (V value : collection) {
+            if (containsValue(value)) {
+                remove(findFirstValue(value));
+                modified &= true;
+            }
+        }
+        return modified;
+    }
+
+    private K findFirstValue(V value) {
+        K key = findFirstValidValue();
+        KeyIterator<K> iterator = new KeyIterator<K>();
+        while (value != get(key)) {
+            key = (K) iterator.next();
+        }
+        return key;
+    }
+
+    private K findFirstValidValue() {
+        K key = keyTable[0];
+        for (int i = 0; !tableValidity[i]; i++) {
+            key = keyTable[i+1];
+        }
+        return key;
+    }
+
+    public Iterator<?> keyIterator() {
+        return new KeyIterator<>();
+    }
+
+    public Iterator<?> valueIterator() {
+        return new ValueIterator<>();
     }
 
     /**
@@ -495,22 +522,85 @@ public class HashTable<K, V> {
         return keySet;
     }
 
-    private class HashTableIterator implements Iterator<?> {
-        @Override
-        public boolean hasNext() {
-            return false;
+    private abstract class HashTableIterator implements Iterator {
+        protected int count;
+
+        public HashTableIterator() {
+            count = 0;
+            findNext();
         }
 
         @Override
+        public boolean hasNext() {
+           return ((table.length >= count) && (isAnyValid(count)));
+            }
+
+        protected boolean isAnyValid(int count) {
+            for (int i = count; i < table.length; i++) {
+                if (tableValidity[i]) return true;
+            }
+            return false;
+        }
+
+        protected void findNext() {
+            while (!tableValidity[count]) count++;
+        }
+
+        protected void findPrevious() { while (!tableValidity[count]) count--; }
+    }
+
+    private class KeyIterator<K> extends HashTableIterator {
+
+        @Override
         public Object next() {
-            return null;
+            K key = (K) keyTable[this.count];
+            findNext();
+            return key;
         }
 
         @Override
         public void remove() {
+            findPrevious();
+             thisObject.remove((K) keyTable[this.count]);
+            findNext();
+        }
 
+        @Override
+        public void forEachRemaining(Consumer action) {
+            while (hasNext()) {
+                action.accept(this);
+                findNext();
+            }
         }
     }
+
+    private class ValueIterator<V> extends HashTableIterator {
+
+        @Override
+        public Object next() {
+            findNext();
+            V value = (V) table[this.count];
+            return value;
+        }
+
+        @Override
+        public void remove() {
+            findPrevious();
+            tableValidity[count] = false;
+            findNext();
+        }
+
+        @Override
+        public void forEachRemaining(Consumer action) {
+            while (hasNext()) {
+                action.accept(this);
+                findNext();
+            }
+        }
+    }
+
+    private final HashTable<?, ?> thisObject = this;
+
 }
 
 class InvalidIndexExpression extends Exception {
