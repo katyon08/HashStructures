@@ -2,13 +2,14 @@ import org.junit.Ignore;
 import org.junit.Test;
 import ua.ks.katyon08.HashTable;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class HashTableTest {
+
+	private final Integer[] simpleArray = { 80, 54, 139, 96, 130, 95, 104, 67, 106, 144};
 
 	private final Integer[] repeatingArray = { -2, 3, -4, 3, -4, -3, 4, 4, -3, -3, 1,
 			-2, 4, -3, 3, -2, -2, -2, -2, -1, -1,
@@ -212,8 +213,6 @@ public class HashTableTest {
 			-9999, -4746, 3017, 5897, -12184, 12320, -12203, 8173, 5964, 10860,
 			-9999, -11947, 5176, 7506, 4149, -12049, 5610, 1307, 13735};
 
-	private final Integer[] simpleArray = { 80, 54, 139, 96, 130, 95, 104, 67, 106, 144};
-
 	private final Integer[] regularArray = { 127, 81, 134, 54, 118, 105, 149, 122, 130, 122, 79, 148, 75, 121, 101, 94,
 			98, 106, 138, 106, 139, 104, 113, 90, 91, 69, 88, 137, 93, 121, 97,
 			116, 132, 66, 124, 76, 110, 140, 119, 115, 104, 79, 143, 122, 107, 149,
@@ -234,6 +233,26 @@ public class HashTableTest {
 			62, 144, 121, 84, 72, 123, 81, 118, 78, 70, 140, 126, 128, 145, 91,
 			94, 58, 142, 100, 78, 80, 117, 137, 113, 121, 111, 81, 61, 122, 108,
 			116, 64, 81, 103, 141, 94, 103, 128, 120, 70, 76, 81, 106, 56 };
+
+	@Test
+	public void testHashTableDefault() {
+		HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
+		assertTrue(hashTable != null);
+	}
+
+	@Test
+	public void testHashTableFloatInt() {
+		HashTable<Integer, String> hashTable = new HashTable<Integer, String>(1f, 10);
+		assertTrue(hashTable != null);
+	}
+
+	@Test
+	public void testHashTableMap() {
+		Map<Integer, String> map = new HashMap<>();
+		map.put(10, String.valueOf(10));
+		HashTable<Integer, String> hashTable = new HashTable<Integer, String>(map);
+		assertTrue(hashTable.get(10).equals(String.valueOf(10)));
+	}
 
 	@Test
 	public void testPut() {
@@ -379,7 +398,20 @@ public class HashTableTest {
 		assertEquals(keySet, hashTable.keySet());
 	}
 
-
+	@Test
+	public void iteratorTest() {
+		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
+		Integer[] array = simpleArray;
+		for (int i = 0; i < array.length; i++) {
+			hashTable.put(i, array[i]);
+		}
+		Iterator<Integer> iterator = (Iterator<Integer>) hashTable.keyIterator();
+		while (iterator.hasNext()) {
+			iterator.next();
+			iterator.remove();
+		}
+		assertEquals(hashTable.size(), 0);
+	}
 
 
 }

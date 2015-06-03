@@ -52,6 +52,10 @@ public class HashTable<K, V> {
      * are valid.
      */
     private int count = 0;
+    /**
+     * field needed for work of inner classes.
+     */
+    private final HashTable<K, V> thisObject = this;
 
     /**
      * Constructs a new, empty hashtable with the specified initial
@@ -389,7 +393,7 @@ public class HashTable<K, V> {
      */
     public V remove(K key) {
         if (key == null) throw new NullPointerException();
-        for (int i = 0; i < capacity; i++) {
+        for (int i = 0; i < capacity; i++) { /*what the shit?!! why i++ ?!!*/
             if (tableValidity[i] && key.equals(keyTable[i])) {
                 V previousValue = table[i];
                 count--;
@@ -532,19 +536,44 @@ public class HashTable<K, V> {
 
         @Override
         public boolean hasNext() {
-           return ((table.length >= count) && (isAnyValid(count)));
+            return ((table.length > count) && (isAnyValid(count)));
             }
 
+        @Override
+        public void remove() {
+            findPrevious();
+            thisObject.remove(keyTable[this.count]);
+            findNext();
+        }
+
+        @Override
+        public void forEachRemaining(Consumer action) {
+            while (hasNext()) {
+                action.accept(this);
+                findNext();
+            }
+        }
+
         protected boolean isAnyValid(int count) {
-            for (int i = count; i < table.length; i++) {
+            for (int i = count/*+1*/; i < table.length; i++) {
                 if (tableValidity[i]) return true;
             }
             return false;
         }
 
         protected void findNext() {
-            while (!tableValidity[count]) count++;
+            while (!tableValidity[count]) {
+                if ((count+1 < table.length) && (true)){
+                    count++;
+                }
+                else {
+                    //no more elements
+                    break;
+                }
+            }
         }
+
+
 
         protected void findPrevious() { while (!tableValidity[count]) count--; }
     }
@@ -557,21 +586,6 @@ public class HashTable<K, V> {
             findNext();
             return key;
         }
-
-        @Override
-        public void remove() {
-            findPrevious();
-             thisObject.remove((K) keyTable[this.count]);
-            findNext();
-        }
-
-        @Override
-        public void forEachRemaining(Consumer action) {
-            while (hasNext()) {
-                action.accept(this);
-                findNext();
-            }
-        }
     }
 
     private class ValueIterator<V> extends HashTableIterator {
@@ -582,24 +596,7 @@ public class HashTable<K, V> {
             V value = (V) table[this.count];
             return value;
         }
-
-        @Override
-        public void remove() {
-            findPrevious();
-            tableValidity[count] = false;
-            findNext();
-        }
-
-        @Override
-        public void forEachRemaining(Consumer action) {
-            while (hasNext()) {
-                action.accept(this);
-                findNext();
-            }
-        }
     }
-
-    private final HashTable<?, ?> thisObject = this;
 
 }
 
