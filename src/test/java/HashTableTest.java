@@ -9,9 +9,11 @@ import static org.junit.Assert.assertTrue;
 
 public class HashTableTest {
 
-	private final Integer[] simpleArray = { 80, 54, 139, 96, 130, 95, 104, 67, 106, 144};
+	private final Integer[] simpleArray =
+			{ 80, 54, 139, 96, 130, 95, 104, 67, 106, 144 };
 
-	private final Integer[] repeatingArray = { -2, 3, -4, 3, -4, -3, 4, 4, -3, -3, 1,
+	private final Integer[] repeatingArray =
+			{ -2, 3, -4, 3, -4, -3, 4, 4, -3, -3, 1,
 			-2, 4, -3, 3, -2, -2, -2, -2, -1, -1,
 			1, -5, -1, -2, -3, 4, 0, -1, 4, -4,
 			3, 3, -1, -1, -5, 2, 1, 3, 3, 1,
@@ -110,9 +112,10 @@ public class HashTableTest {
 			-4, -3, -4, 4, -5, -3, 2, 4, -2, 1,
 			2, -2, 0, -1, -5, 4, -5, -4, -2, -1,
 			-5, -1, 3, -2, 0, -4, 4, -1, 3, -1,
-			-2, 1, -2, 2, -5, -4, 0, -3, -3,  };
+			-2, 1, -2, 2, -5, -4, 0, -3, -3 };
 
-	private final Integer[] maxIntArray = { 14995, -5711, -8063, 10233, 8968, 14854, -7947, 720, 11357, -7643, 1793,
+	private final Integer[] maxIntArray =
+			{ 14995, -5711, -8063, 10233, 8968, 14854, -7947, 720, 11357, -7643, 1793,
 			7265, 4286, -7867, 9477, 6302, -4939, 1092, -12192, 6510, -700,
 			-1808, 6044, -13070, -9695, 4738, -7084, -6698, 9343, 7829, 10178,
 			-13981, -2779, -2203, 13721, -10926, -1011, -4270, 4572, 3979, -4661,
@@ -211,9 +214,10 @@ public class HashTableTest {
 			-10847, 10458, -11528, 70, -12708, -2495, -256, -3031, -3559, 10429,
 			-6987, 355, -7653, 6469, -13242, -3595, -8465, 574, -13608, 1017,
 			-9999, -4746, 3017, 5897, -12184, 12320, -12203, 8173, 5964, 10860,
-			-9999, -11947, 5176, 7506, 4149, -12049, 5610, 1307, 13735};
+			-9999, -11947, 5176, 7506, 4149, -12049, 5610, 1307, 13735 };
 
-	private final Integer[] regularArray = { 127, 81, 134, 54, 118, 105, 149, 122, 130, 122, 79, 148, 75, 121, 101, 94,
+	private final Integer[] regularArray =
+			{ 127, 81, 134, 54, 118, 105, 149, 122, 130, 122, 79, 148, 75, 121, 101, 94,
 			98, 106, 138, 106, 139, 104, 113, 90, 91, 69, 88, 137, 93, 121, 97,
 			116, 132, 66, 124, 76, 110, 140, 119, 115, 104, 79, 143, 122, 107, 149,
 			134, 125, 59, 112, 54, 99, 119, 78, 86, 50, 64, 115, 124, 119, 147,
@@ -235,27 +239,27 @@ public class HashTableTest {
 			116, 64, 81, 103, 141, 94, 103, 128, 120, 70, 76, 81, 106, 56 };
 
 	@Test
-	public void testHashTableDefault() {
+	public void hashTableDefaultTest() {
 		HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
 		assertTrue(hashTable != null);
 	}
 
 	@Test
-	public void testHashTableFloatInt() {
+	public void hashTableFloatIntTest() {
 		HashTable<Integer, String> hashTable = new HashTable<Integer, String>(1f, 10);
 		assertTrue(hashTable != null);
 	}
 
 	@Test
-	public void testHashTableMap() {
-		Map<Integer, String> map = new HashMap<>();
+	public void hashTableMapTest() {
+		Map<Integer, String> map = new java.util.HashMap<>();
 		map.put(10, String.valueOf(10));
 		HashTable<Integer, String> hashTable = new HashTable<Integer, String>(map);
 		assertTrue(hashTable.get(10).equals(String.valueOf(10)));
 	}
 
 	@Test
-	public void testPut() {
+	public void putTest() {
 		HashTable<Integer, String> hashTable = new HashTable<Integer, String>();
 		String s = "ten";
 		hashTable.put(10, s);
@@ -263,7 +267,7 @@ public class HashTableTest {
 	}
 
 	@Test
-	public void testPutAll1() {
+	public void putAllTest1() {
 		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
 		Integer[] array = simpleArray, checkArray = new Integer[array.length];
 		for (int i = 0; i < array.length; i++) {
@@ -277,7 +281,7 @@ public class HashTableTest {
 	}
 
 	@Test
-	public void testPutAll2() {
+	public void putAllTest2() {
 		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
 		Integer[] array = regularArray, checkArray = new Integer[array.length];
 		for (int i = 0; i < array.length; i++) {
@@ -291,7 +295,7 @@ public class HashTableTest {
 	}
 
 	@Test
-	public void testPutAll3() {
+	public void putAllTest3() {
 		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
 		Integer[] array = repeatingArray, checkArray = new Integer[array.length];
 		for (int i = 0; i < array.length; i++) {
@@ -305,7 +309,7 @@ public class HashTableTest {
 	}
 
 	@Test
-	public void testPutAll4() {
+	public void putAllTest4() {
 		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
 		Integer[] array = maxIntArray.clone(), checkArray = new Integer[array.length];
 		for (int i = 0; i < array.length; i++) {
@@ -319,7 +323,7 @@ public class HashTableTest {
 	}
 
 	@Test
-	public void testClear() {
+	public void clearTest() {
 		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
 		Integer[] array = maxIntArray.clone();
 		for (int i = 0; i < array.length; i++) {
@@ -401,7 +405,7 @@ public class HashTableTest {
 	@Test
 	public void iteratorTest() {
 		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
-		Integer[] array = simpleArray;
+		Integer[] array = regularArray;
 		for (int i = 0; i < array.length; i++) {
 			hashTable.put(i, array[i]);
 		}
@@ -413,5 +417,29 @@ public class HashTableTest {
 		assertEquals(hashTable.size(), 0);
 	}
 
+	@Test
+	public void removeAllKeysTest() {
+		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
+		Map<Integer, Integer> map = new java.util.HashMap<>();
+		Integer[] array = regularArray;
+		for (int i = 0; i < array.length; i++) {
+			map.put(array[i], array[i]);
+		}
+		hashTable.putAll(map);
+		hashTable.removeAllKeys(map.keySet());
+		assertTrue(hashTable.size() == 0);
+	}
 
+	@Test
+	public void removeAllValuesTest() {
+		HashTable<Integer, Integer> hashTable = new HashTable<Integer, Integer>();
+		Map<Integer, Integer> map = new java.util.HashMap<>();
+		Integer[] array = simpleArray;
+		for (int i = 0; i < array.length; i++) {
+			map.put(array[i], array[i]);
+		}
+		hashTable.putAll(map);
+		hashTable.removeAllValues(map.values());
+		assertTrue(hashTable.size() == 0);
+	}
 }

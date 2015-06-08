@@ -430,7 +430,12 @@ public class HashTable<K, V> {
         K key = findFirstValidValue();
         KeyIterator<K> iterator = new KeyIterator<K>();
         while (value != get(key)) {
-            key = (K) iterator.next();
+            if (iterator.hasNext()) {
+                key = (K) iterator.next();
+            }
+            else {
+                return null;
+            }
         }
         return key;
     }
@@ -440,7 +445,7 @@ public class HashTable<K, V> {
         for (int i = 0; !tableValidity[i]; i++) {
             key = keyTable[i+1];
         }
-        return key;
+         return key;
     }
 
     public Iterator<?> keyIterator() {
@@ -555,15 +560,16 @@ public class HashTable<K, V> {
         }
 
         protected boolean isAnyValid(int count) {
-            for (int i = count/*+1*/; i < table.length; i++) {
+            for (int i = count; i < table.length; i++) {
                 if (tableValidity[i]) return true;
             }
             return false;
         }
 
         protected void findNext() {
+            //count++;
             while (!tableValidity[count]) {
-                if ((count+1 < table.length) && (true)){
+                if (count+1 < table.length){
                     count++;
                 }
                 else {
