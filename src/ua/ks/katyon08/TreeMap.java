@@ -133,12 +133,12 @@ public class TreeMap<K, V> {
 		while (replacement != root &&
 				replacement.color == BLACK) {
 			if (isLeftSon(replacement)) {
-				brotherNode = brather(replacement);
+				brotherNode = brother(replacement);
 				if (brotherNode.color == RED) {
 					brotherNode.color = BLACK;
 					replacement.parent.color = RED;
 					rotateLeft(replacement.parent);
-					brotherNode = brather(replacement); // brotherNode = right bro
+					brotherNode = brother(replacement); // brotherNode = right bro
 				}
 				if (brotherNode.left.color  == BLACK &&
 						brotherNode.right.color == BLACK) {
@@ -149,7 +149,7 @@ public class TreeMap<K, V> {
 						brotherNode.left.color = BLACK;
 						brotherNode.color = RED;
 						rotateRight(brotherNode);
-						brotherNode = brather(replacement); // brotherNode = right bro
+						brotherNode = brother(replacement); // brotherNode = right bro
 					}
 					brotherNode.color = replacement.parent.color;
 					replacement.parent.color = BLACK;
@@ -158,12 +158,12 @@ public class TreeMap<K, V> {
 					replacement = root;
 				}
 			} else { // symmetric
-				brotherNode = brather(replacement);
+				brotherNode = brother(replacement);
 				if (brotherNode.color == RED) {
 					brotherNode.color = BLACK;
 					replacement.parent.color = RED;
 					rotateRight(replacement.parent);
-					brotherNode = brather(replacement); // brotherNode = left bro
+					brotherNode = brother(replacement); // brotherNode = left bro
 				}
 				if (brotherNode.right.color  == BLACK &&
 						brotherNode.left.color == BLACK) {
@@ -174,7 +174,7 @@ public class TreeMap<K, V> {
 						brotherNode.right.color = BLACK;
 						brotherNode.color = RED;
 						rotateLeft(brotherNode);
-						brotherNode = brather(replacement); // brotherNode = left bro
+						brotherNode = brother(replacement); // brotherNode = left bro
 					}
 					brotherNode.color = replacement.parent.color;
 					replacement.parent.color = BLACK;
@@ -189,7 +189,7 @@ public class TreeMap<K, V> {
 
 	private void modifyAfterInsert(Entry<K, V> insertment) throws NotImplementedException {
 		insertment.color = RED;
-		Entry<K, V> brother = brather(insertment);
+		Entry<K, V> brother = brother(insertment);
 		while (insertment != null &&
 				insertment != root &&
 					insertment.parent.color == RED) {
@@ -287,7 +287,7 @@ public class TreeMap<K, V> {
 		}
 	}
 
-	private Entry<K, V> brather(Entry<K, V> node) {
+	private Entry<K, V> brother(Entry<K, V> node) {
 		return (node == null ? null :
 				(isLeftSon(node) ? node.parent.right : node.parent.left));
 	}

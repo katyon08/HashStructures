@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b86926cf-8a4a-47e1-bc91-00875fd5711a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HashTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/HashTableTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,7 +27,7 @@
     <favorites_list name="HashStructures" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46441674">
+    <splitter split-orientation="horizontal" split-proportion="0.46074834">
       <split-first>
         <leaf>
           <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="false">
@@ -122,8 +121,8 @@
           <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.01901566">
-                  <caret line="173" column="55" selection-start-line="173" selection-start-column="55" selection-end-line="173" selection-end-column="55" />
+                <state vertical-scroll-proportion="-1.6621923">
+                  <caret line="289" column="27" selection-start-line="289" selection-start-column="27" selection-end-line="289" selection-end-column="27" />
                   <folding>
                     <element signature="e#1609#1615#0" expanded="true" />
                   </folding>
@@ -844,7 +843,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433757224108</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Version 1.6">
+      <created>1433763049626</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1433763049626</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1454,8 +1459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.01901566">
-          <caret line="173" column="55" selection-start-line="173" selection-start-column="55" selection-end-line="173" selection-end-column="55" />
+        <state vertical-scroll-proportion="-1.6621923">
+          <caret line="289" column="27" selection-start-line="289" selection-start-column="27" selection-end-line="289" selection-end-column="27" />
           <folding>
             <element signature="e#1609#1615#0" expanded="true" />
           </folding>
