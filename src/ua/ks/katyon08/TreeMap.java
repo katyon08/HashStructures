@@ -74,6 +74,11 @@ public class TreeMap<K, V> {
 		return null;
 	}
 
+	public V get(Object key) {
+		Entry<K, V> gettingEntry = (Entry<K, V>) getEntry((K) key);
+		return (gettingEntry == null ? null : gettingEntry.value);
+	}
+
 	public V remove(Object key) {
 		Entry<K, V> removeingEntry = (Entry<K, V>) getEntry(key);
 		if (removeingEntry == null) {
@@ -240,6 +245,39 @@ public class TreeMap<K, V> {
 	}
 
 	private Object getEntry(Object key) throws NotImplementedException {
+		if (comparator != null)
+			return getEntryUsingComparator(key);
+		if (key == null)
+			throw new NullPointerException();
+		Comparable<? super K> comparableKey = (Comparable<? super K>) key;
+		Entry<K, V> node = root;
+		int comparison;
+		while (node != null) {
+			comparison = comparableKey.compareTo(node.key);
+			if (comparison < 0)
+					node = node.left;
+			else if (comparison > 0)
+				node = node.right;
+			else
+				return node;
+		}
+		return null;
+	}
+
+	private Object getEntryUsingComparator(Object keyObject) throws NotImplementedException{
+		K key = (K) keyObject;
+		if (comparator != null) {
+			Entry<K, V> node = root;
+			int comparison;
+			while (node != null) {
+				comparison = comparator.compare(key, node.key);
+				if (comparison < 0)
+					node = node.left;
+				else if (comparison > 0)
+					node = node.right;
+				else return node;
+			}
+		}
 		return null;
 	}
 
