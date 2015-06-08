@@ -189,11 +189,46 @@ public class TreeMap<K, V> {
 
 	private void modifyAfterInsert(Entry<K, V> insertment) throws NotImplementedException {
 		insertment.color = RED;
+		Entry<K, V> brother = brather(insertment);
 		while (insertment != null &&
 				insertment != root &&
 					insertment.parent.color == RED) {
-
+			if (isLeftSon(insertment.parent)) {
+				if (brother.color == RED) {
+					insertment.parent.color = BLACK;
+					brother.color = BLACK;
+					insertment.parent.parent.color = RED;
+					insertment = insertment.parent.parent;
+				}
+				else {
+					if (isRightSon(insertment)) {
+						insertment = insertment.parent;
+						rotateLeft(insertment);
+					}
+					insertment.parent.color = BLACK;
+					insertment.parent.parent.color = RED;
+					rotateRight(insertment.parent.parent);
+				}
+			}
+			else {
+				if (brother.color == RED) {
+					insertment.parent.color = BLACK;
+					brother.color = BLACK;
+					insertment.parent.parent.color = RED;
+					rotateRight(insertment.parent.parent);
+				}
+				else {
+					if (isLeftSon(insertment)) {
+						insertment = insertment.parent;
+						rotateRight(insertment);
+					}
+					insertment.parent.color = BLACK;
+					insertment.parent.parent.color = RED;
+					rotateLeft(insertment.parent.parent);
+				}
+			}
 		}
+		root.color = BLACK;
 	}
 
 	public int size() {

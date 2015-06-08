@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b86926cf-8a4a-47e1-bc91-00875fd5711a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HashTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/HashTableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" afterPath="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HashStructures.iws" />
@@ -29,48 +28,88 @@
     <favorites_list name="HashStructures" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40063092">
+    <splitter split-orientation="horizontal" split-proportion="0.46441674">
       <split-first>
         <leaf>
-          <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/HashTableTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22996515">
-                  <caret line="397" column="16" selection-start-line="397" selection-start-column="16" selection-end-line="397" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="430" column="5" selection-start-line="430" selection-start-column="5" selection-end-line="430" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#12825#12842#0" expanded="true" />
-                    <element signature="e#12983#13000#0" expanded="true" />
-                    <element signature="e#13223#13240#0" expanded="true" />
-                    <element signature="e#13397#13414#0" expanded="true" />
-                    <element signature="e#13595#13613#0" expanded="true" />
-                    <element signature="e#13983#14001#0" expanded="true" />
-                    <element signature="e#14372#14390#0" expanded="true" />
-                    <element signature="e#14763#14781#0" expanded="true" />
-                    <element signature="e#15157#15175#0" expanded="true" />
-                    <element signature="e#15451#15469#0" expanded="true" />
-                    <element signature="e#15728#15746#0" expanded="true" />
-                    <element signature="e#16093#16111#0" expanded="true" />
-                    <element signature="e#16141#16159#0" expanded="true" />
-                    <element signature="e#16424#16442#0" expanded="true" />
-                    <element signature="e#16472#16490#0" expanded="true" />
-                    <element signature="e#16813#16831#0" expanded="true" />
-                    <element signature="e#17151#17169#0" expanded="true" />
-                    <element signature="e#17241#17250#0" expanded="true" />
-                    <element signature="e#17490#17508#0" expanded="true" />
+                    <element signature="imports" expanded="false" />
+                    <element signature="e#2897#2898#0" expanded="false" />
+                    <element signature="e#2933#2934#0" expanded="false" />
+                    <element signature="e#3298#3299#0" expanded="false" />
+                    <element signature="e#3342#3343#0" expanded="false" />
+                    <element signature="e#3493#3494#0" expanded="false" />
+                    <element signature="e#3524#3525#0" expanded="false" />
+                    <element signature="e#9698#9704#0" expanded="false" />
+                    <element signature="e#10076#10077#0" expanded="false" />
+                    <element signature="e#10104#10105#0" expanded="false" />
+                    <element signature="e#10309#10310#0" expanded="false" />
+                    <element signature="e#10340#10341#0" expanded="false" />
+                    <element signature="e#11084#11085#0" expanded="false" />
+                    <element signature="e#11127#11128#0" expanded="false" />
+                    <element signature="e#14417#14418#0" expanded="false" />
+                    <element signature="e#14459#14460#0" expanded="false" />
+                    <element signature="e#14501#14502#0" expanded="false" />
+                    <element signature="e#14545#14546#0" expanded="false" />
+                    <element signature="e#17349#17350#0" expanded="false" />
+                    <element signature="e#17431#17432#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/Iterator.java">
+          <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="true">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/TreeMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.3456376">
+                  <caret line="2279" column="24" selection-start-line="2279" selection-start-column="24" selection-end-line="2279" selection-end-column="24" />
                   <folding>
-                    <element signature="e#2496#2497#0" expanded="true" />
-                    <element signature="e#2561#2562#0" expanded="true" />
+                    <element signature="e#9063#9064#0" expanded="true" />
+                    <element signature="e#9107#9108#0" expanded="true" />
+                    <element signature="e#11206#11207#0" expanded="true" />
+                    <element signature="e#11239#11240#0" expanded="true" />
+                    <element signature="e#11334#11335#0" expanded="true" />
+                    <element signature="e#11377#11378#0" expanded="true" />
+                    <element signature="e#23674#23675#0" expanded="true" />
+                    <element signature="e#23725#23726#0" expanded="true" />
+                    <element signature="e#25690#25691#0" expanded="true" />
+                    <element signature="e#25742#25743#0" expanded="true" />
+                    <element signature="e#26754#26755#0" expanded="true" />
+                    <element signature="e#26809#26810#0" expanded="true" />
+                    <element signature="e#28935#28936#0" expanded="true" />
+                    <element signature="e#28975#28976#0" expanded="true" />
+                    <element signature="e#34816#34817#0" expanded="true" />
+                    <element signature="e#34860#34861#0" expanded="true" />
+                    <element signature="e#39154#39155#0" expanded="true" />
+                    <element signature="e#39209#39210#0" expanded="true" />
+                    <element signature="e#39252#39253#0" expanded="true" />
+                    <element signature="e#39316#39317#0" expanded="true" />
+                    <element signature="e#46144#46145#0" expanded="true" />
+                    <element signature="e#46193#46194#0" expanded="true" />
+                    <element signature="e#76802#76803#0" expanded="true" />
+                    <element signature="e#76854#76855#0" expanded="true" />
+                    <element signature="e#76916#76917#0" expanded="true" />
+                    <element signature="e#76967#76968#0" expanded="true" />
+                    <element signature="e#77148#77149#0" expanded="true" />
+                    <element signature="e#77197#77198#0" expanded="true" />
+                    <element signature="e#77258#77259#0" expanded="true" />
+                    <element signature="e#77308#77309#0" expanded="true" />
+                    <element signature="e#93288#93289#0" expanded="true" />
+                    <element signature="e#93362#93363#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -80,29 +119,14 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
+          <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4626594">
-                  <caret line="569" column="38" selection-start-line="569" selection-start-column="38" selection-end-line="569" selection-end-column="38" />
+                <state vertical-scroll-proportion="0.01901566">
+                  <caret line="173" column="55" selection-start-line="173" selection-start-column="55" selection-end-line="173" selection-end-column="55" />
                   <folding>
-                    <element signature="e#14298#14299#0" expanded="true" />
-                    <element signature="e#14340#14341#0" expanded="true" />
-                    <element signature="e#14382#14383#0" expanded="true" />
-                    <element signature="e#14426#14427#0" expanded="true" />
-                    <element signature="e#17230#17231#0" expanded="true" />
-                    <element signature="e#17312#17313#0" expanded="true" />
+                    <element signature="e#1609#1615#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/../junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.52">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -146,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/HashTableTest.java" />
         <option value="$PROJECT_DIR$/src/test/HelloTest.java" />
         <option value="$PROJECT_DIR$/src/HashTableTest.java" />
@@ -155,8 +178,9 @@
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/HashMap.java" />
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/HashSet.java" />
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HashTableTest.java" />
         <option value="$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HashTableTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java" />
       </list>
     </option>
   </component>
@@ -199,7 +223,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -285,7 +309,6 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,12 +359,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="katyon08" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashTable.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -786,7 +832,19 @@
       <option name="project" value="LOCAL" />
       <updated>1433322955883</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Version 1.5 with iterators">
+      <created>1433340156727</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1433340156727</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Version 1.6">
+      <created>1433757224108</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1433757224108</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -810,15 +868,15 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39184952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3478261" sideWeight="0.3922619" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4173913" sideWeight="0.3922619" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2452381" sideWeight="0.34333333" order="3" side_tool="false" content_ui="combo" x="572" y="107" width="221" height="514" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2452381" sideWeight="0.6566667" order="4" side_tool="true" content_ui="tabs" x="1997" y="-242" width="412" height="920" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18869048" sideWeight="0.36630434" order="3" side_tool="false" content_ui="combo" x="572" y="107" width="221" height="514" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18869048" sideWeight="0.63369566" order="4" side_tool="true" content_ui="tabs" x="1997" y="-242" width="412" height="920" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16178624" sideWeight="0.5062696" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.34673914" sideWeight="0.6021739" order="11" side_tool="false" content_ui="tabs" x="5" y="3" width="1363" height="725" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5804348" sideWeight="0.6021739" order="11" side_tool="false" content_ui="tabs" x="1433" y="-46" width="1363" height="725" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,8 +897,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="table values[] ready&#10;Class InvalidIndexExpression extends Exception replased out from HashTable class" />
-    <MESSAGE value="put ready&#10;checkLoadFactory not ready" />
     <MESSAGE value="some changes" />
     <MESSAGE value="Put ready, CLF not ready" />
     <MESSAGE value="TableIndex isn't realize" />
@@ -864,14 +920,30 @@
     <MESSAGE value="Version 1.4&#10;All tests ended, all works" />
     <MESSAGE value="Version 1.4.-1&#10;errored" />
     <MESSAGE value="Version 1.4.-2&#10;errored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.4.-2&#10;errored" />
+    <MESSAGE value="Version 1.5 with iterators" />
+    <MESSAGE value="Version 1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java</url>
+          <line>431</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java</url>
+          <line>543</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="68" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -893,7 +965,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#1609#1615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -901,28 +975,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12825#12842#0" expanded="true" />
-            <element signature="e#12983#13000#0" expanded="true" />
-            <element signature="e#13223#13240#0" expanded="true" />
-            <element signature="e#13397#13414#0" expanded="true" />
-            <element signature="e#13595#13613#0" expanded="true" />
-            <element signature="e#13983#14001#0" expanded="true" />
-            <element signature="e#14372#14390#0" expanded="true" />
-            <element signature="e#14763#14781#0" expanded="true" />
-            <element signature="e#15157#15175#0" expanded="true" />
-            <element signature="e#15451#15469#0" expanded="true" />
-            <element signature="e#15728#15746#0" expanded="true" />
-            <element signature="e#16093#16111#0" expanded="true" />
-            <element signature="e#16141#16159#0" expanded="true" />
-            <element signature="e#16424#16442#0" expanded="true" />
-            <element signature="e#16472#16490#0" expanded="true" />
-            <element signature="e#16813#16831#0" expanded="true" />
-            <element signature="e#17151#17169#0" expanded="true" />
-            <element signature="e#17241#17250#0" expanded="true" />
-            <element signature="e#17490#17508#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -931,12 +984,26 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="437" column="18" selection-start-line="437" selection-start-column="18" selection-end-line="437" selection-end-column="18" />
           <folding>
-            <element signature="e#14298#14299#0" expanded="true" />
-            <element signature="e#14340#14341#0" expanded="true" />
-            <element signature="e#14382#14383#0" expanded="true" />
-            <element signature="e#14426#14427#0" expanded="true" />
-            <element signature="e#17230#17231#0" expanded="true" />
-            <element signature="e#17312#17313#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2897#2898#0" expanded="false" />
+            <element signature="e#2933#2934#0" expanded="false" />
+            <element signature="e#3298#3299#0" expanded="false" />
+            <element signature="e#3342#3343#0" expanded="false" />
+            <element signature="e#3493#3494#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#9698#9704#0" expanded="false" />
+            <element signature="e#10076#10077#0" expanded="false" />
+            <element signature="e#10104#10105#0" expanded="false" />
+            <element signature="e#10309#10310#0" expanded="false" />
+            <element signature="e#10340#10341#0" expanded="false" />
+            <element signature="e#11084#11085#0" expanded="false" />
+            <element signature="e#11127#11128#0" expanded="false" />
+            <element signature="e#14417#14418#0" expanded="false" />
+            <element signature="e#14459#14460#0" expanded="false" />
+            <element signature="e#14501#14502#0" expanded="false" />
+            <element signature="e#14545#14546#0" expanded="false" />
+            <element signature="e#17349#17350#0" expanded="false" />
+            <element signature="e#17431#17432#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -945,10 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="e#89#90#0" expanded="false" />
-            <element signature="e#145#146#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,7 +1019,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#1609#1615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -964,28 +1029,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12825#12842#0" expanded="true" />
-            <element signature="e#12983#13000#0" expanded="true" />
-            <element signature="e#13223#13240#0" expanded="true" />
-            <element signature="e#13397#13414#0" expanded="true" />
-            <element signature="e#13595#13613#0" expanded="true" />
-            <element signature="e#13983#14001#0" expanded="true" />
-            <element signature="e#14372#14390#0" expanded="true" />
-            <element signature="e#14763#14781#0" expanded="true" />
-            <element signature="e#15157#15175#0" expanded="true" />
-            <element signature="e#15451#15469#0" expanded="true" />
-            <element signature="e#15728#15746#0" expanded="true" />
-            <element signature="e#16093#16111#0" expanded="true" />
-            <element signature="e#16141#16159#0" expanded="true" />
-            <element signature="e#16424#16442#0" expanded="true" />
-            <element signature="e#16472#16490#0" expanded="true" />
-            <element signature="e#16813#16831#0" expanded="true" />
-            <element signature="e#17151#17169#0" expanded="true" />
-            <element signature="e#17241#17250#0" expanded="true" />
-            <element signature="e#17490#17508#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,12 +1038,26 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="338" column="19" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
           <folding>
-            <element signature="e#14298#14299#0" expanded="true" />
-            <element signature="e#14340#14341#0" expanded="true" />
-            <element signature="e#14382#14383#0" expanded="true" />
-            <element signature="e#14426#14427#0" expanded="true" />
-            <element signature="e#17230#17231#0" expanded="true" />
-            <element signature="e#17312#17313#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2897#2898#0" expanded="false" />
+            <element signature="e#2933#2934#0" expanded="false" />
+            <element signature="e#3298#3299#0" expanded="false" />
+            <element signature="e#3342#3343#0" expanded="false" />
+            <element signature="e#3493#3494#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#9698#9704#0" expanded="false" />
+            <element signature="e#10076#10077#0" expanded="false" />
+            <element signature="e#10104#10105#0" expanded="false" />
+            <element signature="e#10309#10310#0" expanded="false" />
+            <element signature="e#10340#10341#0" expanded="false" />
+            <element signature="e#11084#11085#0" expanded="false" />
+            <element signature="e#11127#11128#0" expanded="false" />
+            <element signature="e#14417#14418#0" expanded="false" />
+            <element signature="e#14459#14460#0" expanded="false" />
+            <element signature="e#14501#14502#0" expanded="false" />
+            <element signature="e#14545#14546#0" expanded="false" />
+            <element signature="e#17349#17350#0" expanded="false" />
+            <element signature="e#17431#17432#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1015,7 +1073,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="e#1609#1615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,12 +1084,26 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14298#14299#0" expanded="true" />
-            <element signature="e#14340#14341#0" expanded="true" />
-            <element signature="e#14382#14383#0" expanded="true" />
-            <element signature="e#14426#14427#0" expanded="true" />
-            <element signature="e#17230#17231#0" expanded="true" />
-            <element signature="e#17312#17313#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2897#2898#0" expanded="false" />
+            <element signature="e#2933#2934#0" expanded="false" />
+            <element signature="e#3298#3299#0" expanded="false" />
+            <element signature="e#3342#3343#0" expanded="false" />
+            <element signature="e#3493#3494#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#9698#9704#0" expanded="false" />
+            <element signature="e#10076#10077#0" expanded="false" />
+            <element signature="e#10104#10105#0" expanded="false" />
+            <element signature="e#10309#10310#0" expanded="false" />
+            <element signature="e#10340#10341#0" expanded="false" />
+            <element signature="e#11084#11085#0" expanded="false" />
+            <element signature="e#11127#11128#0" expanded="false" />
+            <element signature="e#14417#14418#0" expanded="false" />
+            <element signature="e#14459#14460#0" expanded="false" />
+            <element signature="e#14501#14502#0" expanded="false" />
+            <element signature="e#14545#14546#0" expanded="false" />
+            <element signature="e#17349#17350#0" expanded="false" />
+            <element signature="e#17431#17432#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1045,10 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#89#90#0" expanded="false" />
-            <element signature="e#145#146#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,7 +1133,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1609#1615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,10 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#89#90#0" expanded="false" />
-            <element signature="e#145#146#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,7 +1178,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1609#1615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,10 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#89#90#0" expanded="false" />
-            <element signature="e#145#146#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,13 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3115183">
-          <caret line="824" column="0" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61904764">
@@ -1227,9 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="175" column="35" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#6551#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,49 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="171" column="22" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#12854#0" expanded="false" />
-            <element signature="docComment;class#HashSet#0" expanded="false" />
-            <element signature="docComment;method#HashSet#0;class#HashSet#0" expanded="false" />
-            <element signature="e#3709#3710#0" expanded="false" />
-            <element signature="e#3746#3747#0" expanded="false" />
-            <element signature="docComment;method#HashSet#1;class#HashSet#0" expanded="false" />
-            <element signature="docComment;method#HashSet#2;class#HashSet#0" expanded="false" />
-            <element signature="e#4834#4835#0" expanded="false" />
-            <element signature="e#4898#4899#0" expanded="false" />
-            <element signature="docComment;method#HashSet#3;class#HashSet#0" expanded="false" />
-            <element signature="e#5293#5294#0" expanded="false" />
-            <element signature="e#5345#5346#0" expanded="false" />
-            <element signature="docComment;method#HashSet#4;class#HashSet#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#HashSet#0" expanded="false" />
-            <element signature="e#6453#6454#0" expanded="false" />
-            <element signature="e#6499#6500#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#HashSet#0" expanded="false" />
-            <element signature="e#6684#6685#0" expanded="false" />
-            <element signature="e#6717#6718#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#HashSet#0" expanded="false" />
-            <element signature="e#6897#6898#0" expanded="false" />
-            <element signature="e#6933#6934#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#HashSet#0" expanded="false" />
-            <element signature="e#7396#7397#0" expanded="false" />
-            <element signature="e#7437#7438#0" expanded="false" />
-            <element signature="docComment;method#add#0;class#HashSet#0" expanded="false" />
-            <element signature="e#8033#8034#0" expanded="false" />
-            <element signature="e#8081#8082#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#HashSet#0" expanded="false" />
-            <element signature="e#8731#8732#0" expanded="false" />
-            <element signature="e#8776#8777#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#HashSet#0" expanded="false" />
-            <element signature="e#8923#8924#0" expanded="false" />
-            <element signature="e#8950#8951#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#HashSet#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#HashSet#0" expanded="false" />
-            <element signature="method#writeObject#0;class#HashSet#0" expanded="false" />
-            <element signature="method#readObject#0;class#HashSet#0" expanded="false" />
-            <element signature="docComment;method#spliterator#0;class#HashSet#0" expanded="false" />
-            <element signature="e#12773#12774#0" expanded="false" />
-            <element signature="e#12850#12851#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,106 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1450" column="16" selection-start-line="1450" selection-start-column="16" selection-end-line="1450" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#90987#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_INITIAL_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MAXIMUM_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#DEFAULT_LOAD_FACTOR#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#TREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#UNTREEIFY_THRESHOLD#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#MIN_TREEIFY_CAPACITY#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#Node#0;class#HashMap#0" expanded="false" />
-            <element signature="e#12815#12816#0" expanded="false" />
-            <element signature="e#12893#12894#0" expanded="false" />
-            <element signature="docComment;method#hash#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#comparableClassFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#compareComparables#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#tableSizeFor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#table#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#size#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#threshold#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;field#loadFactor#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#HashMap#1;class#HashMap#0" expanded="false" />
-            <element signature="e#19072#19073#0" expanded="false" />
-            <element signature="e#19130#19131#0" expanded="false" />
-            <element signature="docComment;method#HashMap#2;class#HashMap#0" expanded="false" />
-            <element signature="e#19296#19297#0" expanded="false" />
-            <element signature="e#19379#19380#0" expanded="false" />
-            <element signature="docComment;method#HashMap#3;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putMapEntries#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#HashMap#0" expanded="false" />
-            <element signature="e#21076#21077#0" expanded="false" />
-            <element signature="e#21103#21104#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#HashMap#0" expanded="false" />
-            <element signature="e#21303#21304#0" expanded="false" />
-            <element signature="e#21335#21336#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#HashMap#0" expanded="false" />
-            <element signature="e#23597#23598#0" expanded="false" />
-            <element signature="e#23651#23652#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#HashMap#0" expanded="false" />
-            <element signature="e#24298#24299#0" expanded="false" />
-            <element signature="e#24363#24364#0" expanded="false" />
-            <element signature="docComment;method#putVal#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#resize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeifyBin#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#HashMap#0" expanded="false" />
-            <element signature="e#31026#31027#0" expanded="false" />
-            <element signature="e#31064#31065#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#HashMap#0" expanded="false" />
-            <element signature="e#36105#36106#0" expanded="false" />
-            <element signature="e#36189#36190#0" expanded="false" />
-            <element signature="e#36241#36242#0" expanded="false" />
-            <element signature="e#36319#36320#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#HashMap#0" expanded="false" />
-            <element signature="e#38263#38264#0" expanded="false" />
-            <element signature="e#38343#38344#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#HashMap#0" expanded="false" />
-            <element signature="e#40223#40224#0" expanded="false" />
-            <element signature="e#40273#40274#0" expanded="false" />
-            <element signature="e#41993#41994#0" expanded="false" />
-            <element signature="e#42057#42058#0" expanded="false" />
-            <element signature="e#42126#42127#0" expanded="false" />
-            <element signature="e#42202#42203#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#HashMap#0" expanded="false" />
-            <element signature="e#54965#54966#0" expanded="false" />
-            <element signature="e#55008#55009#0" expanded="false" />
-            <element signature="e#63047#63048#0" expanded="false" />
-            <element signature="e#63132#63133#0" expanded="false" />
-            <element signature="e#66429#66430#0" expanded="false" />
-            <element signature="e#66486#66487#0" expanded="false" />
-            <element signature="e#66600#66601#0" expanded="false" />
-            <element signature="e#66663#66664#0" expanded="false" />
-            <element signature="docComment;method#reinitialize#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="e#68529#68530#0" expanded="false" />
-            <element signature="e#68580#68581#0" expanded="false" />
-            <element signature="docComment;method#root#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#moveRootToFront#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#find#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#getTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="e#71152#71153#0" expanded="false" />
-            <element signature="e#71234#71235#0" expanded="false" />
-            <element signature="docComment;method#tieBreakOrder#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#treeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#untreeify#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#putTreeVal#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#removeTreeNode#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#split#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-            <element signature="docComment;method#checkInvariants#0;class#TreeNode#0;class#HashMap#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1394,13 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#15893#0" expanded="false" />
-            <element signature="e#2293#2294#0" expanded="false" />
-            <element signature="e#2327#2328#0" expanded="false" />
-            <element signature="e#8767#8768#0" expanded="false" />
-            <element signature="e#8824#8825#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1408,10 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#89#90#0" expanded="false" />
-            <element signature="e#145#146#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,10 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1402" column="0" selection-start-line="1402" selection-start-column="0" selection-end-line="1402" selection-end-column="0" />
-          <folding>
-            <element signature="e#24674#24675#0" expanded="true" />
-            <element signature="e#24725#24726#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,10 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-          <folding>
-            <element signature="e#2496#2497#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1441,7 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05752961">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1453,19 +1346,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028764805">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.92">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,14 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.56">
           <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-          <folding>
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#5891#6026#0" expanded="true" />
-            <element signature="e#6025#6026#0" expanded="true" />
-            <element signature="e#6429#6593#0" expanded="true" />
-            <element signature="e#6592#6593#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,58 +1364,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6375144">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HashTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22996515">
-          <caret line="397" column="16" selection-start-line="397" selection-start-column="16" selection-end-line="397" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12825#12842#0" expanded="true" />
-            <element signature="e#12983#13000#0" expanded="true" />
-            <element signature="e#13223#13240#0" expanded="true" />
-            <element signature="e#13397#13414#0" expanded="true" />
-            <element signature="e#13595#13613#0" expanded="true" />
-            <element signature="e#13983#14001#0" expanded="true" />
-            <element signature="e#14372#14390#0" expanded="true" />
-            <element signature="e#14763#14781#0" expanded="true" />
-            <element signature="e#15157#15175#0" expanded="true" />
-            <element signature="e#15451#15469#0" expanded="true" />
-            <element signature="e#15728#15746#0" expanded="true" />
-            <element signature="e#16093#16111#0" expanded="true" />
-            <element signature="e#16141#16159#0" expanded="true" />
-            <element signature="e#16424#16442#0" expanded="true" />
-            <element signature="e#16472#16490#0" expanded="true" />
-            <element signature="e#16813#16831#0" expanded="true" />
-            <element signature="e#17151#17169#0" expanded="true" />
-            <element signature="e#17241#17250#0" expanded="true" />
-            <element signature="e#17490#17508#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.52">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4626594">
-          <caret line="569" column="38" selection-start-line="569" selection-start-column="38" selection-end-line="569" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="569" column="14" selection-start-line="569" selection-start-column="14" selection-end-line="569" selection-end-column="14" />
           <folding>
-            <element signature="e#14298#14299#0" expanded="true" />
-            <element signature="e#14340#14341#0" expanded="true" />
-            <element signature="e#14382#14383#0" expanded="true" />
-            <element signature="e#14426#14427#0" expanded="true" />
-            <element signature="e#17230#17231#0" expanded="true" />
-            <element signature="e#17312#17313#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2897#2898#0" expanded="false" />
+            <element signature="e#2933#2934#0" expanded="false" />
+            <element signature="e#3298#3299#0" expanded="false" />
+            <element signature="e#3342#3343#0" expanded="false" />
+            <element signature="e#3493#3494#0" expanded="false" />
+            <element signature="e#3524#3525#0" expanded="false" />
+            <element signature="e#9698#9704#0" expanded="false" />
+            <element signature="e#10076#10077#0" expanded="false" />
+            <element signature="e#10104#10105#0" expanded="false" />
+            <element signature="e#10309#10310#0" expanded="false" />
+            <element signature="e#10340#10341#0" expanded="false" />
+            <element signature="e#11084#11085#0" expanded="false" />
+            <element signature="e#11127#11128#0" expanded="false" />
+            <element signature="e#14417#14418#0" expanded="false" />
+            <element signature="e#14459#14460#0" expanded="false" />
+            <element signature="e#14501#14502#0" expanded="false" />
+            <element signature="e#14545#14546#0" expanded="false" />
+            <element signature="e#17349#17350#0" expanded="false" />
+            <element signature="e#17431#17432#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HashTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="430" column="5" selection-start-line="430" selection-start-column="5" selection-end-line="430" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3456376">
+          <caret line="2279" column="24" selection-start-line="2279" selection-start-column="24" selection-end-line="2279" selection-end-column="24" />
+          <folding>
+            <element signature="e#9063#9064#0" expanded="true" />
+            <element signature="e#9107#9108#0" expanded="true" />
+            <element signature="e#11206#11207#0" expanded="true" />
+            <element signature="e#11239#11240#0" expanded="true" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11377#11378#0" expanded="true" />
+            <element signature="e#23674#23675#0" expanded="true" />
+            <element signature="e#23725#23726#0" expanded="true" />
+            <element signature="e#25690#25691#0" expanded="true" />
+            <element signature="e#25742#25743#0" expanded="true" />
+            <element signature="e#26754#26755#0" expanded="true" />
+            <element signature="e#26809#26810#0" expanded="true" />
+            <element signature="e#28935#28936#0" expanded="true" />
+            <element signature="e#28975#28976#0" expanded="true" />
+            <element signature="e#34816#34817#0" expanded="true" />
+            <element signature="e#34860#34861#0" expanded="true" />
+            <element signature="e#39154#39155#0" expanded="true" />
+            <element signature="e#39209#39210#0" expanded="true" />
+            <element signature="e#39252#39253#0" expanded="true" />
+            <element signature="e#39316#39317#0" expanded="true" />
+            <element signature="e#46144#46145#0" expanded="true" />
+            <element signature="e#46193#46194#0" expanded="true" />
+            <element signature="e#76802#76803#0" expanded="true" />
+            <element signature="e#76854#76855#0" expanded="true" />
+            <element signature="e#76916#76917#0" expanded="true" />
+            <element signature="e#76967#76968#0" expanded="true" />
+            <element signature="e#77148#77149#0" expanded="true" />
+            <element signature="e#77197#77198#0" expanded="true" />
+            <element signature="e#77258#77259#0" expanded="true" />
+            <element signature="e#77308#77309#0" expanded="true" />
+            <element signature="e#93288#93289#0" expanded="true" />
+            <element signature="e#93362#93363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/ks/katyon08/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01901566">
+          <caret line="173" column="55" selection-start-line="173" selection-start-column="55" selection-end-line="173" selection-end-column="55" />
+          <folding>
+            <element signature="e#1609#1615#0" expanded="true" />
           </folding>
         </state>
       </provider>
