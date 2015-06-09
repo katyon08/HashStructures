@@ -3,7 +3,9 @@ package ua.ks.katyon08;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 public class TreeMap<K, V> {
 	private static final boolean RED = false;
@@ -12,7 +14,7 @@ public class TreeMap<K, V> {
 	private Comparator<? super K> comparator;
 	private int size = 0;
 
-	TreeMap() {
+	public TreeMap() {
 		comparator = null;
 	}
 
@@ -399,6 +401,21 @@ public class TreeMap<K, V> {
 		}
 	}
 
+	public String toString() {
+		String s = "";
+		EntryIterator iterator = new EntryIterator();
+		while (iterator.hasNext()) {
+			s.concat(getEntry(iterator.next()).toString()).concat("\n");
+		}
+		return s;
+	}
+
+	private Entry<K, V> getFirstEntry() {
+		Entry<K, V> node = root;
+		while (node.left != null) node = node.left;
+		return node;
+	}
+
 
 	private class Entry<K, V> {
 		Entry<K, V> left;
@@ -463,10 +480,6 @@ public class TreeMap<K, V> {
 			return keyHash ^ valueHash;
 		}
 
-		public String toString() {
-			return key + " = " + value;
-		}
-
 		public Entry parent() {
 			return parent;
 		}
@@ -479,7 +492,38 @@ public class TreeMap<K, V> {
 			return right;
 		}
 
-
+		public String toString() {
+			return key + " = " + value + " is " + (color == BLACK ? "BLACK" : "RED");
+		}
 	}
+
+	private class EntryIterator implements Iterator {
+		Entry<K, V> next, previous;
+
+		public EntryIterator() {
+			next = getFirstEntry();
+		}
+
+		@Override
+		public boolean hasNext() {
+			return next != null;
+		}
+
+		@Override
+		public Object next() {
+			if (next == null)
+				throw new NoSuchElementException();
+			previous = next;
+			next = successor(next);
+			return previous;
+		}
+
+		public Entry<K,V> previous() {
+			previous = next;
+			next = predecessor(next);
+			return next;
+		}
+	}
+
 
 }
