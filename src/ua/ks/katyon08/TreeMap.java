@@ -138,73 +138,89 @@ public class TreeMap<K, V> {
 	private void modifyAfterDeletion(Entry<K, V> replacement) {
 		Entry<K,V> brotherNode;
 		while (replacement != root &&
-				replacement.color == BLACK) {
+				getColor(replacement) == BLACK) {
 			if (isLeftSon(replacement)) {
 				brotherNode = brother(replacement);
-				if (brotherNode.color == RED) {
-					brotherNode.color = BLACK;
-					replacement.parent.color = RED;
+				if (getColor(brotherNode) == RED) {
+					setColor(brotherNode, BLACK);
+					setColor(replacement.parent, RED);
 					rotateLeft(replacement.parent);
 					brotherNode = brother(replacement); // brotherNode = right bro
 				}
-				if (brotherNode.left.color  == BLACK &&
-						brotherNode.right.color == BLACK) {
-					brotherNode.color = RED;
+				if (getColor(brotherNode.left)  == BLACK &&
+						getColor(brotherNode.right) == BLACK) {
+					setColor(brotherNode, RED);
 					replacement = replacement.parent;
 				} else {
-					if (brotherNode.right.color == BLACK) {
-						brotherNode.left.color = BLACK;
-						brotherNode.color = RED;
+					if (getColor(brotherNode.right) == BLACK) {
+						setColor(brotherNode.left, BLACK);
+						setColor(brotherNode, RED);
 						rotateRight(brotherNode);
 						brotherNode = brother(replacement); // brotherNode = right bro
 					}
-					brotherNode.color = replacement.parent.color;
-					replacement.parent.color = BLACK;
-					brotherNode.right.color = BLACK;
+					setColor(brotherNode, getColor(replacement.parent));
+					setColor(replacement.parent, BLACK);
+					setColor(brotherNode.right, BLACK);
 					rotateLeft(replacement.parent);
 					replacement = root;
 				}
 			} else { // symmetric
 				brotherNode = brother(replacement);
-				if (brotherNode.color == RED) {
-					brotherNode.color = BLACK;
-					replacement.parent.color = RED;
+				if (getColor(brotherNode) == RED) {
+					setColor(brotherNode, BLACK);
+					setColor(replacement.parent, RED);
 					rotateRight(replacement.parent);
 					brotherNode = brother(replacement); // brotherNode = left bro
 				}
-				if (brotherNode.right.color  == BLACK &&
-						brotherNode.left.color == BLACK) {
-					brotherNode.color = RED;
+				if (getColor(brotherNode.right)  == BLACK &&
+						getColor(brotherNode.left) == BLACK) {
+					setColor(brotherNode, RED);
 					replacement = replacement.parent;
 				} else {
-					if (brotherNode.left.color == BLACK) {
-						brotherNode.right.color = BLACK;
-						brotherNode.color = RED;
+					if (getColor(brotherNode.left) == BLACK) {
+						setColor(brotherNode.right, BLACK);
+						setColor(brotherNode, RED);
 						rotateLeft(brotherNode);
 						brotherNode = brother(replacement); // brotherNode = left bro
 					}
-					brotherNode.color = replacement.parent.color;
-					replacement.parent.color = BLACK;
-					brotherNode.left.color = BLACK;
+					setColor(brotherNode, getColor(replacement.parent));
+					setColor(replacement.parent, BLACK);
+					setColor(brotherNode.left, BLACK);
 					rotateRight(replacement.parent);
 					replacement = root;
 				}
 			}
 		}
-		replacement.color = BLACK;
+		setColor(replacement, BLACK);
 	}
 
-	private void modifyAfterInsert(Entry<K, V> insertment) throws NotImplementedException {
-		insertment.color = RED;
+	private void setColor(Entry<K, V> replacement, boolean color) {
+		if (replacement != null) {
+			replacement.color = color;
+		}
+		else if (color != BLACK) {
+			throw new NullPointerException();
+		}
+	}
+
+	private boolean getColor(Entry<K, V> node) {
+		if (node != null) {
+			return node.color;
+		}
+		else return BLACK;
+	}
+
+	private void modifyAfterInsert(Entry<K, V> insertment) {
+		setColor(insertment, RED);
 		Entry<K, V> brother = brother(insertment);
 		while (insertment != null &&
 				insertment != root &&
-					insertment.parent.color == RED) {
+				getColor(insertment.parent) == RED) {
 			if (isLeftSon(insertment.parent)) {
-				if (brother.color == RED) {
-					insertment.parent.color = BLACK;
-					brother.color = BLACK;
-					insertment.parent.parent.color = RED;
+				if (getColor(brother) == RED) {
+					setColor(insertment.parent, BLACK);
+					setColor(brother, BLACK);
+					setColor(insertment.parent.parent, RED);
 					insertment = insertment.parent.parent;
 				}
 				else {
@@ -212,16 +228,16 @@ public class TreeMap<K, V> {
 						insertment = insertment.parent;
 						rotateLeft(insertment);
 					}
-					insertment.parent.color = BLACK;
-					insertment.parent.parent.color = RED;
+					setColor(insertment.parent, BLACK);
+					setColor(insertment.parent.parent, RED);
 					rotateRight(insertment.parent.parent);
 				}
 			}
 			else {
-				if (brother.color == RED) {
-					insertment.parent.color = BLACK;
-					brother.color = BLACK;
-					insertment.parent.parent.color = RED;
+				if (getColor(brother) == RED) {
+					setColor(insertment.parent, BLACK);
+					setColor(brother, BLACK);
+					setColor(insertment.parent.parent, RED);
 					rotateRight(insertment.parent.parent);
 				}
 				else {
@@ -229,13 +245,13 @@ public class TreeMap<K, V> {
 						insertment = insertment.parent;
 						rotateRight(insertment);
 					}
-					insertment.parent.color = BLACK;
-					insertment.parent.parent.color = RED;
+					setColor(insertment.parent, BLACK);
+					setColor(insertment.parent.parent, RED);
 					rotateLeft(insertment.parent.parent);
 				}
 			}
 		}
-		root.color = BLACK;
+		setColor(root, BLACK);
 	}
 
 	public int size() {
@@ -246,7 +262,11 @@ public class TreeMap<K, V> {
 		return getEntry(key) != null;
 	}
 
-	private Object getEntry(Object key) throws NotImplementedException {
+	public Entry<K, V> getEntryPublic(Object key) {
+		return (Entry<K, V>) getEntry(key);
+	}
+
+	private Object getEntry(Object key) {
 		if (comparator != null)
 			return getEntryUsingComparator(key);
 		if (key == null)
@@ -266,7 +286,7 @@ public class TreeMap<K, V> {
 		return null;
 	}
 
-	private Object getEntryUsingComparator(Object keyObject) throws NotImplementedException{
+	private Object getEntryUsingComparator(Object keyObject) {
 		K key = (K) keyObject;
 		if (comparator != null) {
 			Entry<K, V> node = root;
@@ -356,11 +376,6 @@ public class TreeMap<K, V> {
 		return (node == null ? null : node.right);
 	}
 
-	private void setColor(Entry<K, V> node, boolean c) {
-		if (node != null)
-			node.color = c;
-	}
-
 	/**
 	 * From CLR
 	 */
@@ -405,7 +420,8 @@ public class TreeMap<K, V> {
 		String s = "";
 		EntryIterator iterator = new EntryIterator();
 		while (iterator.hasNext()) {
-			s.concat(getEntry(iterator.next()).toString()).concat("\n");
+			/*s.concat(((Entry<K, V>) iterator.next()).toString()).concat("\n");*/
+			s += ((Entry<K, V>) iterator.next()).toString() + "\n";
 		}
 		return s;
 	}
@@ -416,8 +432,14 @@ public class TreeMap<K, V> {
 		return node;
 	}
 
+	private Entry<K, V> getFirstEntryOfSubTree(Entry<K, V> localRoot) {
+		Entry<K, V> node = localRoot;
+		while (node.left != null) node = node.left;
+		return node;
+	}
 
-	private class Entry<K, V> {
+
+	public class Entry<K, V> {
 		Entry<K, V> left;
 		Entry<K, V> right;
 		Entry<K, V> parent;
@@ -493,8 +515,21 @@ public class TreeMap<K, V> {
 		}
 
 		public String toString() {
-			return key + " = " + value + " is " + (color == BLACK ? "BLACK" : "RED");
+			return (this != null ? key.toString() : "null") + " = " +
+					(this != null ? value.toString() : "null") + " is " +
+					(color != BLACK ? "RED " : "BLACK ") + "; left = " +
+					(left != null ? left.key.toString() : "null") + "; right = " +
+					(right != null ? right.key.toString() : "null") + "; paret = " +
+					(parent != null ? parent.key.toString() : "null");
 		}
+	}
+
+	public Iterator entryIterator() {
+		return new EntryIterator();
+	}
+
+	public Iterator entryIterator(Entry<K, V> node) {
+		return new EntryIterator(node);
 	}
 
 	private class EntryIterator implements Iterator {
@@ -502,6 +537,10 @@ public class TreeMap<K, V> {
 
 		public EntryIterator() {
 			next = getFirstEntry();
+		}
+
+		public EntryIterator(Entry<K, V> localRoot) {
+			next = getFirstEntryOfSubTree(localRoot);
 		}
 
 		@Override
@@ -525,5 +564,13 @@ public class TreeMap<K, V> {
 		}
 	}
 
+	public String[] print(Entry<K, V> localRoot) throws NotImplementedException{
+		if (localRoot == null) {
+			return null;
+		}
+		int count = (int) (Math.log(size) / Math.log(2)) + 1;
+
+		return null;
+	}
 
 }

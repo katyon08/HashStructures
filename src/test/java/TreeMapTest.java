@@ -4,7 +4,7 @@ import ua.ks.katyon08.TreeMap;
 public class TreeMapTest {
 
 	private final Integer[] simpleArray =
-			{ 80, 54, 139, 96, 130, 95, 104, 67, 106, 144 };
+			{ 80, 54, 139, 96, 130, 95, 104, 67, 106, 144, 17, 28, 35, 67, 73, 81, 95, 111, 127 };
 
 	@Test
 	public void putTest() {
@@ -12,6 +12,8 @@ public class TreeMapTest {
 		for (int i = 0; i < simpleArray.length; i++) {
 			tree.put(simpleArray[i], simpleArray[i]);
 		}
-		System.out.println(tree);
+		String s = tree.toString();
+		System.out.println(s);
+		System.out.println();
 	}
 }
